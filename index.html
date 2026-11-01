@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#24165a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="דיסני פריז">
+<meta name="description" content="אפליקציה משפחתית פרטית לתכנון טיול לדיסנילנד פריז ופריז">
+<title>הטיול הקסום שלנו · דיסנילנד פריז</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Secular+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="sky" aria-hidden="true"><div class="stars s1"></div><div class="stars s2"></div><div class="stars s3"></div></div>
+
+<header class="hero">
+  <svg class="castle" viewBox="0 0 240 120" aria-hidden="true">
+    <defs><linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe8a3"/><stop offset="1" stop-color="#f3b94d"/></linearGradient></defs>
+    <g fill="url(#cg)">
+      <path d="M20 120V70h14v-8l6-14 6 14v8h10V56l9-24 9 24v14h8V44l14-36 14 36v26h8V56l9-24 9 24v14h10v-8l6-14 6 14v8h14v50z"/>
+      <path d="M112 120V96a8 8 0 0 1 16 0v24z" fill="#24165a"/>
+      <rect x="62" y="80" width="6" height="10" rx="3" fill="#24165a"/><rect x="172" y="80" width="6" height="10" rx="3" fill="#24165a"/>
+      <rect x="117" y="56" width="6" height="12" rx="3" fill="#24165a"/>
+      <path d="M120 8V0l10 4z"/>
+    </g>
+  </svg>
+  <h1>הטיול הקסום שלנו</h1>
+  <p class="sub">דיסנילנד פריז ופריז · 18–23 במאי 2027</p>
+  <div class="hero-chips">
+    <span id="countdown" class="chip gold"></span>
+    <span id="liveChip" class="chip">⏳ טוען תורים…</span>
+  </div>
+</header>
+
+<main id="app">
+  <!-- NOW -->
+  <section class="view" id="v-now" data-view="now">
+    <div class="card" id="todayCard"></div>
+    <div class="card" id="weatherCard"><h2>☁️ מזג האוויר בדיסני</h2><div id="weather" class="muted">טוען…</div></div>
+    <div class="card" id="pickCard">
+      <h2>🎠 מה הכי משתלם עכשיו?</h2>
+      <p class="muted small">מתקנים שמתאימים לבנות, ממוינים לפי זמן התור (ולפי המרחק, אם המיקום פעיל).</p>
+      <div id="picks"></div>
+    </div>
+    <div class="card" id="showsCard"><h2>🎭 מופעים ומצעדים היום</h2><div id="showsToday" class="muted">טוען…</div></div>
+    <div class="card" id="downCard"><h2>🔧 סגור עכשיו</h2><div id="downList" class="muted">—</div></div>
+  </section>
+
+  <!-- MAP -->
+  <section class="view" id="v-map" data-view="map" hidden>
+    <div class="map-tools">
+      <div class="seg" id="mapLayers"></div>
+      <div class="map-btns">
+        <button class="btn sm" id="btnLocate">📍 המיקום שלי</button>
+        <button class="btn sm ghost" data-fly="disney">🏰 דיסני</button>
+        <button class="btn sm ghost" data-fly="paris">🗼 פריז</button>
+      </div>
+    </div>
+    <div id="map" role="application" aria-label="מפת דיסנילנד פריז ופריז"></div>
+    <p class="muted small center" id="routeNote"></p>
+  </section>
+
+  <!-- PLACES -->
+  <section class="view" id="v-places" data-view="places" hidden>
+    <div class="seg big" id="placeKinds"></div>
+    <div class="filters">
+      <input type="search" id="q" placeholder="🔎 חיפוש…" autocomplete="off">
+      <div class="seg" id="parkSeg"></div>
+      <div class="chips" id="filterChips"></div>
+      <label class="sort">מיון:
+        <select id="sortSel">
+          <option value="rate">מומלץ לנו</option>
+          <option value="wait">זמן תור</option>
+          <option value="dist">מרחק ממני</option>
+          <option value="name">א״ב</option>
+        </select>
+      </label>
+    </div>
+    <div id="cards" class="cards"></div>
+  </section>
+
+  <!-- ITINERARY -->
+  <section class="view" id="v-plan" data-view="plan" hidden>
+    <div class="days" id="days"></div>
+    <div class="card"><div id="planList"></div>
+      <div class="row gap wrap">
+        <button class="btn" id="btnAddPlan">➕ הוספה ללו״ז</button>
+        <button class="btn ghost" id="btnDayMap">🗺️ המסלול במפה</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>🔁 שיתוף וגיבוי</h2>
+      <p class="muted small">הלו״ז והצ׳קליסט נשמרים בטלפון. כדי שגם לשני ההורים יהיה אותו לו״ז: לוחצים ״שיתוף קישור״ ושולחים בוואטסאפ, ומי שפותח את הקישור יכול לייבא.</p>
+      <div class="row gap wrap">
+        <button class="btn sm" id="btnShare">📤 שיתוף קישור</button>
+        <button class="btn sm ghost" id="btnCopyText">📋 העתקה כטקסט</button>
+        <button class="btn sm ghost" id="btnExport">💾 ייצוא</button>
+        <label class="btn sm ghost">📂 ייבוא<input type="file" id="fileImport" accept="application/json" hidden></label>
+        <button class="btn sm ghost danger" id="btnResetPlan">↺ איפוס לברירת המחדל</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LISTS -->
+  <section class="view" id="v-lists" data-view="lists" hidden>
+    <div class="seg big" id="listSeg"></div>
+    <div id="listBody"></div>
+  </section>
+</main>
+
+<nav class="tabbar" id="tabbar" aria-label="ניווט">
+  <button data-tab="now" class="on"><span>✨</span>עכשיו</button>
+  <button data-tab="map"><span>🗺️</span>מפה</button>
+  <button data-tab="places"><span>🎠</span>מקומות</button>
+  <button data-tab="plan"><span>📅</span>לו״ז</button>
+  <button data-tab="lists"><span>✅</span>רשימות</button>
+</nav>
+
+<div class="sheet-wrap" id="sheetWrap" hidden>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true"></div>
+</div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

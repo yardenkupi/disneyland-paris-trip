@@ -1,0 +1,152 @@
+{
+ "h_dlh": {
+  "lat": 48.8709272,
+  "lon": 2.7810101,
+  "name": "Disneyland® Hotel, Place des Passagers du Vent, Chessy, Torcy, Seine-et-Marne, Île-de-Fran"
+ },
+ "h_hny": {
+  "lat": 48.8704773,
+  "lon": 2.7883821,
+  "name": "Disney Hotel New York® – The Art of Marvel, Avenue René Goscinny, Chessy, Torcy, Seine-et-"
+ },
+ "h_chy": {
+  "lat": 48.8747136,
+  "lon": 2.7921421,
+  "name": "Disney Hotel Cheyenne®, Aile 33, La Maizière, Coupvray, Torcy, Seine-et-Marne, Île-de-Fran"
+ },
+ "h_stf": {
+  "lat": 48.872967,
+  "lon": 2.7958744,
+  "name": "Disney Hotel Santa Fe®, Boulevard du Parc, Les Trois Ormes, Coupvray, Torcy, Seine-et-Marn"
+ },
+ "h_dcr": {
+  "lat": 48.8338541,
+  "lon": 2.8203943,
+  "name": "Disney Davy Crockett Ranch, D 344P, Bailly-Romainvilliers, Torcy, Seine-et-Marne, Île-de-F"
+ },
+ "h_dream": {
+  "lat": 48.874551,
+  "lon": 2.806738,
+  "name": "Dream Castle Hotel, Avenue de la Fosse des Pressoirs, Val de France, Magny-le-Hongre, Torc"
+ },
+ "h_magic": {
+  "lat": 48.8720225,
+  "lon": 2.8075064,
+  "name": "Grand Magic Hotel, 20, Avenue de la Fosse des Pressoirs, Val de France, Magny-le-Hongre, T"
+ },
+ "h_expl": {
+  "lat": 48.875722,
+  "lon": 2.8080094,
+  "name": "Explorers Hotel, Avenue de la Fosse des Pressoirs, Val de France, Magny-le-Hongre, Torcy, "
+ },
+ "h_moxy": {
+  "lat": 48.8552406,
+  "lon": 2.7696559,
+  "name": "Moxy Paris Val d’Europe, Rond-Point Simone Veil, Centre Urbain Ouest, Chessy, Torcy, Seine"
+ },
+ "h_aida": {
+  "lat": 48.8739793,
+  "lon": 2.3467563,
+  "name": "Hôtel Aida Opera, 11, Rue Richer, Quartier du Faubourg-Montmartre, Paris 9e Arrondissement"
+ },
+ "x_village": {
+  "lat": 48.8681716,
+  "lon": 2.7847311,
+  "name": "Disney Village, Chessy, Torcy, Seine-et-Marne, Île-de-France, France métropolitaine, 77700"
+ },
+ "p_arc": {
+  "lat": 48.8737791,
+  "lon": 2.2950372,
+  "name": "Arc de Triomphe, Passage du Souvenir, Quartier des Ternes, Paris 17e Arrondissement, Paris"
+ },
+ "p_carette": {
+  "lat": 48.8637238,
+  "lon": 2.2872368,
+  "name": "Carette, Place du Trocadéro et du 11 Novembre 1918, Chaillot, Paris 16e Arrondissement, Pa"
+ },
+ "p_troca": {
+  "lat": 48.8621524,
+  "lon": 2.2885857,
+  "name": "Parvis des Libertés et des Droits de l'Homme, Chaillot, Paris 16e Arrondissement, Paris, Î"
+ },
+ "p_trocagarden": {
+  "lat": 48.8613484,
+  "lon": 2.289363,
+  "name": "Jardins du Trocadéro, Paris, Île-de-France, France métropolitaine, France"
+ },
+ "p_eiffel": {
+  "lat": 48.8582599,
+  "lon": 2.2945006,
+  "name": "Tour Eiffel, 5, Avenue Anatole France, Quartier du Gros-Caillou, Paris 7e Arrondissement, "
+ },
+ "p_champ": {
+  "lat": 48.8561447,
+  "lon": 2.2978204,
+  "name": "Champ de Mars, Avenue Bosquet, Quartier du Gros-Caillou, Paris 7e Arrondissement, Paris, Î"
+ },
+ "p_bateaux": {
+  "lat": 48.8604547,
+  "lon": 2.2936273,
+  "name": "Bateaux parisiens, Port de la Bourdonnais, Quartier du Gros-Caillou, Paris 7e Arrondisseme"
+ },
+ "p_wilson": {
+  "lat": 48.8649445,
+  "lon": 2.2973261,
+  "name": "Marché Président Wilson, Avenue du Président Wilson, Chaillot, Paris 16e Arrondissement, P"
+ },
+ "p_lux": {
+  "lat": 48.8467228,
+  "lon": 2.3364148,
+  "name": "Jardin du Luxembourg, Allée du Séminaire - Jean-Jacques Olier, Quartier de l'Odéon, Paris "
+ },
+ "p_etoile": {
+  "lat": 48.8744088,
+  "lon": 2.295508,
+  "name": "Charles de Gaulle — Étoile, Avenue de Wagram, Quartier du Faubourg-du-Roule, Paris 8e Arro"
+ },
+ "p_auber": {
+  "lat": 48.8726361,
+  "lon": 2.3311513,
+  "name": "Auber, Rue Scribe, Quartier de la Chaussée-d'Antin, Paris 9e Arrondissement, Paris, Île-de"
+ },
+ "p_cdg": {
+  "lat": 49.0068908,
+  "lon": 2.571082,
+  "name": "Aéroport de Paris-Charles-de-Gaulle, Tremblay-en-France, Le Raincy, Seine-Saint-Denis, Île"
+ },
+ "h_nbc": {
+  "lat": 48.8661441,
+  "lon": 2.7878443,
+  "name": "Disney Newport Bay Club®, Avenue Robert Schuman, Coupvray, Torcy, Seine-et-Marne, Île-de-F"
+ },
+ "h_seq": {
+  "lat": 48.870627,
+  "lon": 2.793893,
+  "name": "Sequoia Lodge, Avenue René Goscinny, Coupvray, Torcy, Seine-et-Marne, Île-de-France, Franc"
+ },
+ "h_bb": {
+  "lat": 48.876982,
+  "lon": 2.810491,
+  "name": "B&B Hôtel Val de France, 60, Avenue de la Fosse des Pressoirs, Val de France, Magny-le-Hon"
+ },
+ "h_radisson": {
+  "lat": 48.8548755,
+  "lon": 2.8075619,
+  "name": "Radisson Blu Golf Hotel, 40, Allée de la Mare Houleuse, Magny-le-Hongre, Torcy, Seine-et-M"
+ },
+ "x_station": {
+  "lat": 48.8699134,
+  "lon": 2.7821727,
+  "name": "Marne-la-Vallée - Chessy, Place des Passagers du Vent, Chessy, Torcy, Seine-et-Marne, Île-"
+ },
+ "x_valdeurope": {
+  "lat": 48.8548969,
+  "lon": 2.7725636,
+  "name": "Val d'Europe, Boulevard du Grand Fossé, Centre Urbain Ouest, Chessy, Torcy, Seine-et-Marne"
+ },
+ "p_laduree": {
+  "lat": 48.8708201,
+  "lon": 2.303167,
+  "name": "Ladurée, Rue Lincoln, Quartier des Champs-Élysées, Paris 8e Arrondissement, Paris, Île-de-"
+ }
+}
