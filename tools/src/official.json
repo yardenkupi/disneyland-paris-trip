@@ -1,0 +1,3829 @@
+{
+ "/en-gb/attractions/attractions-for-all": {
+  "img": null,
+  "title": "Attractions for all | Disneyland Paris",
+  "own": "AttractionsHub",
+  "ids": [
+   "AttractionsHub",
+   "TitleHeaderTagH2FAQ",
+   "access",
+   "attractions",
+   "faqEmbeddedTitle",
+   "questions",
+   "restaurants"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/attractions/attractions-for-all"
+ },
+ "/en-gb/attractions/disney-adventure-world/cars-quatre-roues-rallye": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n005941_2028jul10_world_cars-attraction-scenery_16-9_tcm752-226416.jpg",
+  "title": "Cars Quatre Roues Rallye",
+  "own": "P2XA02",
+  "ids": [
+   "P2XA02",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "transferFromYourWheelchairEssential",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/cars-road-trip": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n035065_2028may16_world_cars-road-trip-attraction_16-9_tcm752-221737.jpg",
+  "title": "Cars ROAD TRIP",
+  "own": "P2XA00",
+  "ids": [
+   "P2XA00",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guestMayGetSplashed",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "orion",
+   "preschoolers",
+   "wheelchairAccessible",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/crushs-coaster": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n018313_2050jan01_crushs-coaster_16-9_tcm752-159058.jpg",
+  "title": "Crush&#x27;s Coaster",
+  "own": "P2XA03",
+  "ids": [
+   "HIGHLIGHT",
+   "P2XA03",
+   "adults",
+   "bigThrills",
+   "expectantMothersMayNotRide",
+   "guideAndAssistanceDogsNotAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "mustBeInGoodHealth",
+   "notToBeMissed",
+   "orion",
+   "singleRider",
+   "teens",
+   "tweens",
+   "walkingAbility",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/flight-force": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038480_2027jul05_world_marvel-avengers-campus-detail-page-avengers-assemble-flight-force-attraction_3-4_tcm752-248724.jpg",
+  "title": "Avengers Assemble: Flight Force | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "240407",
+   "240408",
+   "240409",
+   "240410",
+   "ACAttractions",
+   "DPA",
+   "anchor2",
+   "avengersCampus",
+   "dpaCard",
+   "flightforce",
+   "height",
+   "interactiveMap",
+   "saveTheWorld",
+   "spiderMan",
+   "thrillAttraction",
+   "waitingTimes",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/avengers-assemble-flight-force"
+ },
+ "/en-gb/attractions/disney-adventure-world/flying-carpets-over-agrabah": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014973_2020jun05_flying-carpet-over-agrabah_16-9_tcm752-156930.jpg",
+  "title": "Les Tapis Volants - Flying Carpets Over Agrabah®",
+  "own": "P2XA05",
+  "ids": [
+   "P2XA05",
+   "adults",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideAndAssistanceDogsNotAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "notAdvisedForPregnantWomen",
+   "preschoolers",
+   "teens",
+   "tweens",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/frozen-ever-after-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043140_2029mar09_world_frozen-ever-after_16-9_tcm752-294304.jpg",
+  "title": "Frozen Ever After | Disneyland Paris",
+  "own": "frozenEverAfter",
+  "ids": [
+   "240407",
+   "240408",
+   "240410",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q2",
+   "Q3",
+   "Q4",
+   "Q7",
+   "Q8",
+   "Q9",
+   "TitleHeaderTagH2FAQ",
+   "faqEmbeddedTitle",
+   "frozenEverAfter",
+   "information"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/frozen-ever-after"
+ },
+ "/en-gb/attractions/disney-adventure-world/raiponce-tangled-spin-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n042700_2_2027dec18_world_raiponce-tangled-spin-attraction-architecture_16-9_tcm752-293270.jpg",
+  "title": "Raiponce Tangled Spin | Disneyland Paris",
+  "own": "raiponceTangledSpin",
+  "ids": [
+   "240407",
+   "240410",
+   "Q1",
+   "Q2",
+   "Q3",
+   "Q4",
+   "Q7",
+   "Q8",
+   "Q9",
+   "TitleHeaderTagH2FAQ",
+   "faqEmbeddedTitle",
+   "raiponceTangledSpin"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/raiponce-tangled-spin"
+ },
+ "/en-gb/attractions/disney-adventure-world/ratatouille-the-adventure": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/203227958-resource-cafe_2050dec31_world_wdw-epcot-ratatouille-adventure-attraction-guets_16-9_tcm752-296574.jpg",
+  "title": "Ratatouille : L’Aventure Totalement Toquée de Rémy​",
+  "own": "P2XA09",
+  "ids": [
+   "HIGHLIGHT",
+   "P2XA09",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guestMayGetSplashed",
+   "guideDogsAndAssistanceDogsAccepted",
+   "mayFrightenYoungerGuests",
+   "notAdvisedForPregnantWomen",
+   "orion",
+   "preschoolers",
+   "singleRider",
+   "wheelchairAccessible",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/rc-racer": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n015438_2020aug20_rc-racer_16-9_tcm752-157167.jpg",
+  "title": "RC Racer",
+  "own": "P2XA06",
+  "ids": [
+   "HIGHLIGHT",
+   "P2XA06",
+   "adults",
+   "bigThrills",
+   "guideAndAssistanceDogsNotAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "notToBeMissed",
+   "singleRider",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/slinky-dog-zigzag-spin": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n010516_2050jan01_slinky-dog_16-9_tcm752-157187.jpg",
+  "title": "Slinky® Dog Zigzag Spin",
+  "own": "P2XA08",
+  "ids": [
+   "P2XA08",
+   "anyHeight",
+   "fromOneYear",
+   "funForLittleOnes",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "transferFromYourWheelchairEssential",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/spiderman-web-adventure": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038449_2029jul05_world_marvel-avengers-spiderman-robot-lab-with-frame_16-9_tcm752-248717.png",
+  "title": "Spider-Man W.E.B. Adventure l Disneyland Paris | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "240407",
+   "240441",
+   "240442",
+   "240443",
+   "ACFlightForce",
+   "DAW",
+   "DPA",
+   "anchor2",
+   "avengersCampus",
+   "dpaCard",
+   "familyAdventure",
+   "flightForce",
+   "interactiveMap",
+   "noHeightRestrictions",
+   "spiderBots",
+   "spidermanweb",
+   "waitingTimes",
+   "webPowerBand",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/attractions/disney-adventure-world/spider-man-web-adventure"
+ },
+ "/en-gb/attractions/disney-adventure-world/toy-soldiers-parachute-drop": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n015458_2020aug20_parachute-drop_16-9_tcm752-157083.jpg",
+  "title": "Toy Soldiers Parachute Drop",
+  "own": "P2XA07",
+  "ids": [
+   "81cm",
+   "P2XA07",
+   "adults",
+   "familyAdventure",
+   "guideAndAssistanceDogsNotAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "singleRider",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/twilight-zone-tower-of-terror": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n031223_2016mar26_world_tower-of-terror-inside-view-family-and-cast_16-9_tcm752-195204.jpg",
+  "title": "The Twilight Zone Tower of Terror",
+  "own": "P2ZA02",
+  "ids": [
+   "HIGHLIGHT",
+   "P2ZA02",
+   "PhotoPass",
+   "adults",
+   "bigThrills",
+   "guideAndAssistanceDogsNotAccepted",
+   "notToBeMissed",
+   "orion",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens"
+  ]
+ },
+ "/en-gb/attractions/disney-adventure-world/world-premiere": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041946_2032jun03_world_world-premiere_16-9_tcm752-288261.jpg",
+  "title": "World Premiere",
+  "own": "P2FD03",
+  "ids": [
+   "P2FD03",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/adventure-isle": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014921_2020jun11_adventure-isle_16-9_tcm752-157140.jpg",
+  "title": "Adventure Isle",
+  "own": "P1AA00",
+  "ids": [
+   "P1AA00",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideAndAssistanceDogsAllowed",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/alices-curious-labyrinth": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n024748_2023oct25_le-labyrinthe-dalice_16-9_tcm752-157216.jpg",
+  "title": "Alice&#x27;s Curious Labyrinth",
+  "own": "P1NA00",
+  "ids": [
+   "P1NA00",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "botanicalWalk",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "walkingAbility"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/autopia": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n021038_2022jun03_autopia_16-9_tcm752-157219.jpg",
+  "title": "Autopia, presented by Avis",
+  "own": "P1DA03",
+  "ids": [
+   "81cm",
+   "P1DA03",
+   "adults",
+   "funForLittleOnes",
+   "guideAndAssistanceDogsNotAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "mustBeInGoodHealth",
+   "orion",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/big-thunder-mountain": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017798_2050jan01_big-thunder-mountain_16-9_tcm752-159546.jpg",
+  "title": "Big Thunder Mountain",
+  "own": "P1RA00",
+  "ids": [
+   "HIGHLIGHT",
+   "P1RA00",
+   "PhotoPass",
+   "adults",
+   "bigThrills",
+   "expectantMothersMayNotRide",
+   "kids",
+   "notToBeMissed",
+   "orion",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens",
+   "typesOfLimbImpairement",
+   "typesOfLimbImpairementText"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/blanche-neige-et-les-sept-nains": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014348_2020feb01_blanche-neige-et-les-sept-nains-ride_16-9_tcm752-157364.jpg",
+  "title": "Blanche-Neige et les Sept Nains®",
+  "own": "P1NA01",
+  "ids": [
+   "P1NA01",
+   "allAges",
+   "anyHeight",
+   "expectantMothersMayNotRide",
+   "familyAdventure",
+   "guideAndAssistanceDogsNotAccepted",
+   "guideAndAssistanceDogsNotAllowed",
+   "littleOrNoFlash",
+   "mayFrightenYoungerGuests",
+   "notAdvisedForPregnantWomen",
+   "preschoolers",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/buzz-lightyear-laser-blast": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n035463_2050dec31_world_buzz-lightyear-laser-blast-attraction-front-blue-version_16-9_tcm752-157036.jpg",
+  "title": "Buzz Lightyear Laser Blast",
+  "own": "P1DA04",
+  "ids": [
+   "HIGHLIGHT",
+   "P1DA04",
+   "PhotoPass",
+   "accessibleToPregnantWomen",
+   "adults",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "kids",
+   "notToBeMissed",
+   "orion",
+   "preschoolers",
+   "teens",
+   "tweens",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/casey-jr-le-petit-train-du-cirque": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n012750_2019may15_casey-Jr-le-petit-train-du-cirque_16-9_tcm752-157138.jpg",
+  "title": "Casey Jr. – le Petit Train du Cirque",
+  "own": "P1NA03",
+  "ids": [
+   "P1NA03",
+   "allAges",
+   "anyHeight",
+   "expectantMothersMayNotRide",
+   "funForLittleOnes",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "preschoolers",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/discovery-arcade": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017851_2050jan01_discovey-arcade_16-9_tcm752-159485.jpg",
+  "title": "Discovery Arcade",
+  "own": "P1MA00",
+  "ids": [
+   "P1MA00",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/disneyland-railroad-main-street-station": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017678_2050jan01-disneyland-railroad-main-street-station_16-9_tcm752-159598.jpg",
+  "title": "Disneyland Railroad Main Street Station",
+  "own": "P1MA05",
+  "ids": [
+   "P1MA05",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideAndAssistanceDogsAllowed",
+   "guideDogsAndAssistanceDogsAccepted",
+   "preschoolers",
+   "suitableForAmputees",
+   "suitableForBlindGuests",
+   "suitableForGuestsSufferingFromDebilitatingIllness",
+   "suitableForGuestsWhoHaveDifficultyStanding",
+   "suitableForHearingImpairedGuests",
+   "suitableForMentallyDisabledGuests",
+   "suitableForVisuallyImpairedGuests",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/dumbo-the-flying-elephant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n020759_2022-10-06_world_dumbo-attraction_16-9_tcm752-223475.png",
+  "title": "Dumbo the Flying Elephant",
+  "own": "P1NA05",
+  "ids": [
+   "P1NA05",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/frontierland-playground": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n002671_2019jul01_pocahontas-indians-village_16-9_tcm752-157297.jpg",
+  "title": "Frontierland Playground",
+  "own": "P1RA07",
+  "ids": [
+   "P1RA07",
+   "accessibleToPregnantWomen",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "transferFromYourWheelchairEssential",
+   "tweens"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/horse-drawn-streetcars": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n021113_2022jun01_horse-drawn-street-car_16-9_tcm752-161434.jpg",
+  "title": "Horse-Drawn Streetcars",
+  "own": "P1MA02",
+  "ids": [
+   "P1MA02",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "notToBeMissed",
+   "preschoolers",
+   "relaxingWalks",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/hyper-space-mountain": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd13578_2022jun29_world_star-wars-hyperspace-mountain_16-9_tcm752-162410.jpg",
+  "title": "Star Wars Hyperspace Mountain",
+  "own": "P1DA08",
+  "ids": [
+   "HIGHLIGHT",
+   "P1DA08",
+   "PhotoPass",
+   "adults",
+   "bigThrills",
+   "guideAndAssistanceDogsNotAccepted",
+   "notToBeMissed",
+   "orion",
+   "singleRider",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/indiana-jones-and-the-temple-of-peril": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017906_2050jan01_world_indiana-jones-et-le-temple-du-peril_16-9_tcm752-159553.jpg",
+  "title": "Indiana Jones™ and the Temple of Peril",
+  "own": "P1AA02",
+  "ids": [
+   "HIGHLIGHT",
+   "P1AA02",
+   "adults",
+   "bigThrills",
+   "expectantMothersMayNotRide",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "mustBeInGoodHealth",
+   "notToBeMissed",
+   "orion",
+   "singleRider",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/its-a-small-world-app": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n027110_2030apr16_world_its-a-small-world-attraction-facade-clock_16-9_tcm752-256996.jpg",
+  "title": "&quot;it&#x27;s a small world&quot; | Disneyland Paris",
+  "own": "ItsASmallWorld",
+  "ids": [
+   "ItsASmallWorld",
+   "MobileApp",
+   "anchor2",
+   "dlpark",
+   "dpaCard",
+   "facade",
+   "familyadventure",
+   "favorite",
+   "height",
+   "maps",
+   "nohight",
+   "song"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/its-a-small-world"
+ },
+ "/en-gb/attractions/disneyland-park/la-cabane-des-robinson": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N014909_2027june10_world_cabane-des-robinsons_16-9_tcm752-157345.JPG",
+  "title": "La Cabane des Robinson",
+  "own": "P1AA01",
+  "ids": [
+   "P1AA01",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "botanicalWalk",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "walkingAbility"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/la-galerie-de-la-belle-au-bois-dormant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n024757_2023oct25_la-galerie-de-la-belle-au-bois-dormant_16-9_tcm752-161731.jpg",
+  "title": "La Galerie de la Belle au Bois Dormant",
+  "own": "P1NA06",
+  "ids": [
+   "HIGHLIGHT",
+   "P1NA06",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/la-taniere-du-dragon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n012062_2028sep16_la-taniere-du-dragon_16-9_tcm752-157414.jpg",
+  "title": "La Tanière du Dragon",
+  "own": "P1NA12",
+  "ids": [
+   "P1NA12",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "mayFrightenYoungerGuests",
+   "preschoolers",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/le-carrousel-de-lancelot": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017611_2050jan01_le-carrousel-de-lancelot_16-9_tcm752-159503.jpg",
+  "title": "Le Carrousel de Lancelot",
+  "own": "P1NA02",
+  "ids": [
+   "P1NA02",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/le-passage-enchante-daladdin": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014339_2027jan30_le-passage-enchante-d-aladdin_16-9_zoom_tcm752-225549.jpg",
+  "title": "Le Passage Enchanté d&#x27;Aladdin",
+  "own": "P1AA03",
+  "ids": [
+   "P1AA03",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/le-pays-des-contes-de-fees": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n012762_2019may15_le-pays-des-contes-de-fees_16-9_tcm752-157000.jpg",
+  "title": "Le Pays des Contes de Fées, presented by Vittel",
+  "own": "P1NA09",
+  "ids": [
+   "P1NA09",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "notToBeMissed",
+   "preschoolers",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/les-mysteres-du-nautilus": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014369_2027mar15_world_attraction-nautilus_16-9_tcm752-157489.jpg",
+  "title": "Les Mystères du Nautilus",
+  "own": "P1DA06",
+  "ids": [
+   "P1DA06",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "notToBeMissed",
+   "preschoolers",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/les-voyages-de-pinocchio": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014349_2027jan30_les-voyages-de-pinocchio_16-9_tcm752-157397.jpg",
+  "title": "Les Voyages de Pinocchio",
+  "own": "P1NA13",
+  "ids": [
+   "P1NA13",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "mayFrightenYoungerGuests",
+   "notAdvisedForPregnantWomen",
+   "preschoolers",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/liberty-arcade": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017917_2050jan01_libety-arcade_16-9_tcm752-159573.jpg",
+  "title": "Liberty Arcade",
+  "own": "P1MA03",
+  "ids": [
+   "P1MA03",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/mad-hatters-tea-cups": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017931_2050jan01_mad-hatters-tea-cups_16-9_tcm752-159886.jpg",
+  "title": "Mad Hatter&#x27;s Tea Cups",
+  "own": "P1NA08",
+  "ids": [
+   "HIGHLIGHT",
+   "P1NA08",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/main-street-vehicles": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n018654_2021oct09_mais-street-vehicles_16-9_tcm752-156927.jpg",
+  "title": "Main Street Vehicles",
+  "own": "P1MA04",
+  "ids": [
+   "P1MA04",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "preschoolers",
+   "relaxingWalks",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/orbitron": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017068_2027nov12_world_orbitron-machines-volantes_16-9_tcm752-157389.jpg",
+  "title": "Orbitron®",
+  "own": "P1DA07",
+  "ids": [
+   "HIGHLIGHT",
+   "P1DA07",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "funForLittleOnes",
+   "littleOrNoFlash",
+   "orion",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/peter-pans-flight": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n015221_2027jul21_world_peter-pan-flight-attraction_16-9_tcm752-268437.jpg",
+  "title": "Peter Pan&#x27;s Flight",
+  "own": "P1NA10",
+  "ids": [
+   "HIGHLIGHT",
+   "P1NA10",
+   "allAges",
+   "anyHeight",
+   "guideAndAssistanceDogsNotAccepted",
+   "littleOrNoFlash",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "orion",
+   "preschoolers",
+   "walkingAbility"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/phantom-manor": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014938_2027jul10_world_phantom-manor_16-9_tcm752-157081.jpg",
+  "title": "Phantom Manor",
+  "own": "P1RA03",
+  "ids": [
+   "HIGHLIGHT",
+   "P1RA03",
+   "adults",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "mayFrightenYoungerGuests",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "orion",
+   "preschoolers",
+   "teens",
+   "transferFromYourWheelchairEssential",
+   "tweens"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/pirate-galleon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n025820_2024may09_world_the-pirates-galion-boat-adventureland_16-9_tcm752-207158.jpg",
+  "title": "Pirate Galleon",
+  "own": "P1AA08",
+  "ids": [
+   "P1AA08",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "preschoolers",
+   "walkingAbility"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/pirates-beach": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n020766_2022jun10_pirate-beach_16-9_tcm752-156973.jpg",
+  "title": "Pirates&#x27; Beach",
+  "own": "P1AA05",
+  "ids": [
+   "P1AA05",
+   "accessibleToPregnantWomen",
+   "anyHeight",
+   "funForLittleOnes",
+   "guideDogsAndAssistanceDogsAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "transferFromYourWheelchairEssential",
+   "tweens"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/pirates-of-the-caribbean": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014915_2027jul10_world_panoramique-pirates-of-the-caribbean_16-9_tcm752-162428.jpg",
+  "title": "Pirates of the Caribbean",
+  "own": "P1AA04",
+  "ids": [
+   "HIGHLIGHT",
+   "P1AA04",
+   "PhotoPass",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guestMayGetSplashed",
+   "guideAndAssistanceDogsNotAccepted",
+   "mayFrightenYoungerGuests",
+   "notAdvisedForPregnantWomen",
+   "notToBeMissed",
+   "orion",
+   "preschoolers",
+   "transferFromYourWheelchairEssential"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/rustler-roundup-shootin-gallery": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014946_2027jul10_rustler-roundup-shooting-gallery_16-9_tcm752-156965.jpg",
+  "title": "Rustler Roundup Shootin&#x27; Gallery",
+  "own": "P1RA05",
+  "ids": [
+   "P1RA05",
+   "accessibleToPregnantWomen",
+   "adults",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "kids",
+   "littleOrNoFlash",
+   "teens",
+   "tweens",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/sleeping-beauty-castle": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n024756_2030jul07_world_serie-panoramique-disneyland-paris-dnx-castle_16-9_tcm752-161957.jpg",
+  "title": "Sleeping Beauty Castle",
+  "own": "P1NA04",
+  "ids": [
+   "HIGHLIGHT",
+   "P1NA04",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "preschoolers",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/attractions/disneyland-park/star-tours-the-aventures-continue": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/11_17_WDI_9004_usa-visual_world_star-tours-the-adventures-continue-crait_16-9_tcm752-202368.jpg",
+  "title": "",
+  "own": "P1DA09",
+  "ids": [],
+  "final": "https://www.disneylandparis.com/en-gb/attractions/disneyland-park/star-tours-the-aventures-continue"
+ },
+ "/en-gb/attractions/disneyland-park/thunder-mesa-riverboat-landing": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n012748_2019may15_thunder-mesa-riverboat-landing_16-9_tcm752-157092.jpg",
+  "title": "Thunder Mesa Riverboat Landing",
+  "own": "P1RA06",
+  "ids": [
+   "P1RA06",
+   "accessibleToPregnantWomen",
+   "allAges",
+   "anyHeight",
+   "familyAdventure",
+   "guideDogsAndAssistanceDogsAccepted",
+   "littleOrNoFlash",
+   "notToBeMissed",
+   "preschoolers",
+   "relaxingWalks",
+   "wheelchairAccessible"
+  ]
+ },
+ "/en-gb/dining/dining-at-disneyland-paris": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/e181__BOOK-DINING-DINING-PLAN_1-1_tcm752-266572.jpg",
+  "title": "Where to eat in the Disney Parks? | Disneyland Paris",
+  "own": "hubFood",
+  "ids": [
+   "bars",
+   "birthdayCake",
+   "bookTable",
+   "bookYourTables",
+   "buffetService",
+   "characterDining",
+   "cuisine",
+   "cuisineSection",
+   "disneyCheck",
+   "disneyVillage",
+   "experienceMore",
+   "findRestaurant",
+   "flexibleOptions",
+   "forEveryone",
+   "freedom",
+   "homeMade",
+   "hotelRestaurants",
+   "hubFood",
+   "littleOnes",
+   "mealPlanSection",
+   "mealplan",
+   "menus",
+   "moreSection",
+   "onlyDisney",
+   "orderFood",
+   "organic",
+   "peaceOfMind",
+   "postAudiodescription",
+   "quality",
+   "quickService",
+   "restaurant",
+   "restaurantsSection",
+   "snackBar",
+   "tableService",
+   "themedisney",
+   "variety",
+   "vegetarianVegan",
+   "wineCellar"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/dining-at-disneyland-paris"
+ },
+ "/en-gb/dining/disney-adventure-world/bistrot-chez-remy": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017656_2050jan01_bistrot-chez-remy_16-9_tcm752-158834.jpg",
+  "title": "Bistrot Chez Rémy",
+  "own": "P2TR02",
+  "ids": [
+   "P2TR02",
+   "euro2",
+   "french",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/cafe-luminosity": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043395_2029mar09_world_adventure-way-family-with-teens_16-9_tcm752-295418.jpg",
+  "title": "Café Luminosity",
+  "own": "P2DR03",
+  "ids": [
+   "P2DR03",
+   "american",
+   "euro1",
+   "onTheGo",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/chez-berlioz": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043356_2029mar09_world_world-of-frozen-yolo-marie-or-berlioz-or-toulouse-kiosk_16-9_tcm752-295800.jpg",
+  "title": "Chez Berlioz",
+  "own": "P2DR05",
+  "ids": [
+   "P2DR05",
+   "euro1",
+   "internationalCuisine",
+   "onTheGo",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/chez-marie": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043358_2029mar09_world_world-of-frozen-yolo-marie-or-berlioz-or-toulouse-kiosk_16-9_tcm752-295790.jpg",
+  "title": "Chez Marie",
+  "own": "P2DR06",
+  "ids": [
+   "P2DR06",
+   "euro1",
+   "iceCreams",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/chez-toulouse": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043359_2029mar09_world_adventure-way-marie-or-berlioz-or-toulouse-kiosk_16-9_tcm752-295799.jpg",
+  "title": "Chez Toulouse",
+  "own": "P2DR04",
+  "ids": [
+   "P2DR04",
+   "euro1",
+   "internationalCuisine",
+   "onTheGo",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/fantastic": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n037100_2030jan05_world_marvel-avengers-campus-detail-page-fan-tastic-food-truck_3-4_tcm752-254767.jpg",
+  "title": "FAN-tastic Food Truck - Dining | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "AvengersCards",
+   "explore",
+   "menu",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-adventure-world/fan-tastic"
+ },
+ "/en-gb/dining/disney-adventure-world/ice-cream-creations": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n037115_2_2030jan05_world_food-trucks-ice-cream-unilever-partner_16-9_tcm752-268706.jpg",
+  "title": "Ice Cream Creations",
+  "own": "P2TR00",
+  "ids": [
+   "P2TR00",
+   "euro1",
+   "iceCreams",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/la-terrasse-panoramique": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043442_2029mar09_world_adventure-way-family-with-young-kids_16-9_tcm752-295424.jpg",
+  "title": "La Terrasse Panoramique",
+  "own": "P2DR02",
+  "ids": [
+   "P2DR02",
+   "euro1",
+   "internationalCuisine",
+   "onTheGo",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/laugh-n-go": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n037104_2030jan05_world_food-trucks-laugh-n-go_16-9_tcm752-253443.jpg",
+  "title": "Laugh’N&#x27; Go!",
+  "own": "P2VK00",
+  "ids": [
+   "P2VK00",
+   "american",
+   "euro1",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/nordic-crowns-tavern": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043062_2029mar09_world_nordic-crowns-tavern-lifestyle_16-9_tcm752-294828.jpg",
+  "title": "Nordic Crowns Tavern",
+  "own": "P2ER00",
+  "ids": [
+   "NordicCuisine",
+   "P2ER00",
+   "breakfast",
+   "clickAndCollect",
+   "essential",
+   "euro1",
+   "extra",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/pymkitchen": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/vignette_N038273_2029may19_world_pym-kitchen-burger-subatomique_16-9_tcm752-240613.png",
+  "title": "PYM Kitchen | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "AvengersCards",
+   "Pymkitchen",
+   "anchor2",
+   "book",
+   "explore",
+   "menu",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-adventure-world/pym-kitchen"
+ },
+ "/en-gb/dining/disney-adventure-world/searchlight": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041954_2030jun11_world_world-premiere_16-9_tcm752-273242.jpg",
+  "title": "Searchlight",
+  "own": "P2FR02",
+  "ids": [
+   "P2FR02",
+   "american",
+   "euro1",
+   "onTheGo",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/starkfactory": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/vignette_N038303_2029may19_world_stark-factory-pizza-jambon-parme_16-9_tcm752-240655.png",
+  "title": "Stark Factory | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "AvengersCards",
+   "Starkfactory",
+   "explore",
+   "menu",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-adventure-world/stark-factory"
+ },
+ "/en-gb/dining/disney-adventure-world/superdiner": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/2030jul10_world_restaurant-super-diner-shawarma-frame_16-9_tcm752-264920.png",
+  "title": "Super Diner | Disneyland Paris",
+  "own": "HeroSuperDiner",
+  "ids": [
+   "AvengersCards",
+   "HeroSuperDiner",
+   "explore",
+   "menu",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-adventure-world/super-diner"
+ },
+ "/en-gb/dining/disney-adventure-world/the-hollywood-gardens-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041932_2030jun11_world_world-premiere_16-9_tcm752-288272.jpg",
+  "title": "The Hollywood Gardens Restaurant",
+  "own": "P2FR00",
+  "ids": [
+   "P2FR00",
+   "american",
+   "breakfast",
+   "clickAndCollect",
+   "essential",
+   "euro1",
+   "extra",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/the-regal-view-lounge": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043128_2033mar13_world_the-regal-view-lounge_16-9_tcm752-295484.jpg",
+  "title": "The Regal View Lounge",
+  "own": "P2DR01",
+  "ids": [
+   "P2DR01",
+   "bars",
+   "euro3"
+  ]
+ },
+ "/en-gb/dining/disney-adventure-world/the-regal-view-restaurant-and-lounge": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043234_2033mar13_world_the-regal-view-restaurant-and-lounge_16-9_frame-regalview_tcm752-295325.png",
+  "title": "The Regal View Restaurant &amp; Lounge | Disneyland Paris",
+  "own": "TheRegalViewRestaurantAndLoungeHero",
+  "ids": [
+   "Q1",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q5",
+   "Q8",
+   "Q9",
+   "TheRegalViewRestaurantAndLoungeHero",
+   "TitleHeaderTagH2FAQ",
+   "faqEmbeddedTitle",
+   "highlights",
+   "information",
+   "introSection",
+   "lounge"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-adventure-world/the-regal-view-restaurant-and-lounge"
+ },
+ "/en-gb/dining/disney-adventure-world/the-regal-view-restaurant-and-lounge-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043234_2033mar13_world_the-regal-view-restaurant-and-lounge_16-9_frame-regalview_tcm752-295325.png",
+  "title": "The Regal View Restaurant &amp; Lounge | Disneyland Paris",
+  "own": "TheRegalViewRestaurantAndLoungeHero",
+  "ids": [
+   "Q1",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q13",
+   "Q14",
+   "Q15",
+   "Q16",
+   "Q17",
+   "Q5",
+   "Q8",
+   "Q9",
+   "TheRegalViewRestaurantAndLoungeHero",
+   "TitleHeaderTagH2FAQ",
+   "faqEmbeddedTitle",
+   "highlights",
+   "information",
+   "introSection",
+   "lounge"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-adventure-world/the-regal-view-restaurant-and-lounge"
+ },
+ "/en-gb/dining/disney-adventure-world/webfoodtruck": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038442_2029jul05_world_marvel-avengers-campus-detail-page-web-food-truck_3-4_tcm752-249725.jpg",
+  "title": "WEB Food Truck - Dining | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "AvengersCards",
+   "explore",
+   "menu",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-adventure-world/web-food-truck"
+ },
+ "/en-gb/dining/disney-character-dining": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043095_2029mar09_world_the-regal-view-restaurant-with-character-jasmine_16-9_tcm752-294076.jpg",
+  "title": "Disney Character Dining | Disneyland Paris",
+  "own": "characterDining",
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "TitleHeaderTagH2FAQ",
+   "book",
+   "characterDining",
+   "experience",
+   "faqEmbeddedTitle",
+   "questions",
+   "restaurants"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-character-dining"
+ },
+ "/en-gb/dining/disney-village": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043319_2051feb08_world_mcdonalds-disney-village_16-9_tcm752-294305.jpg",
+  "title": "List of Restaurants in Disney Village | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "1KeyStar",
+   "2",
+   "20MinutesWalk",
+   "2KeysStars",
+   "3KeysStars",
+   "4KeysStars",
+   "5KeysStars",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "D01",
+   "D01R01",
+   "D01R02",
+   "D01R06",
+   "D01R08",
+   "D01R09",
+   "D01R11",
+   "D01R12",
+   "D01R13",
+   "D01R16",
+   "D01R19",
+   "D01R20",
+   "D01R21",
+   "D01R23",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "FullyEquippedkitchenette"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disney-village"
+ },
+ "/en-gb/dining/disney-village/billy-bobs-buffet": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041061_2031jul18_world_beauty-shot-billy-bobs-country-and-western-saloon_16-9_tcm752-280215.jpg",
+  "title": "Billy Bob’s Buffet",
+  "own": "D01R19",
+  "ids": [
+   "D01R19",
+   "buffet",
+   "essential",
+   "euro2",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "texMex",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/billy-bobs-country-western-saloon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n031359_2026may27_world_billy-bob-country-western-saloon-neon-signboard_16-9_tcm752-254734.png",
+  "title": "Billy Bob&#x27;s Country Western Saloon",
+  "own": "D01R01",
+  "ids": [
+   "D01R01",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disney-village/brasserie-rosalie": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N040625_2030Dec11_world_brasserie-rosalie_16-9_tcm752-273684.jpg",
+  "title": "Brasserie Rosalie",
+  "own": "D01R20",
+  "ids": [
+   "D01R20",
+   "euro2",
+   "french",
+   "tableService",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/comptoir-rosalie": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N00000_xxxx-xx-xx_world_brasserie-rosalie-le-comptoir_16-9_tcm752-285730.jpg",
+  "title": "Le Comptoir",
+  "own": "D01R21",
+  "ids": [
+   "D01R21",
+   "euro1",
+   "french",
+   "onTheGo",
+   "quickServiceRestaurant",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/earl-of-sandwich": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n012171_2018oct01_earl-of-sandwiches_16-9_tcm752-157498.jpg",
+  "title": "Earl of Sandwich",
+  "own": "D01R13",
+  "ids": [
+   "D01R13",
+   "american",
+   "euro1",
+   "onTheGo",
+   "quickServiceRestaurant"
+  ]
+ },
+ "/en-gb/dining/disney-village/five-guys": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n025446_2020dec31_fiveguys-restaurant_16-9_tcm752-162252.jpg",
+  "title": "Five Guys",
+  "own": "D01R16",
+  "ids": [
+   "D01R16",
+   "american",
+   "euro1",
+   "quickServiceRestaurant"
+  ]
+ },
+ "/en-gb/dining/disney-village/la-grange-at-billy-bobs-country-western-saloon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n024004_2030apr25_world_la-grange-at-billy-bobs-country-western-saloon-restaurant_16-9_tcm752-254885.jpg",
+  "title": "La Grange [at Billy Bob&#x27;s Country Western Saloon]",
+  "own": "D01R02",
+  "ids": [
+   "D01R02",
+   "buffet",
+   "essential",
+   "euro2",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "texMex",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/mcdonalds": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043319_2051feb08_world_mcdonalds-disney-village_16-9_tcm752-294305.jpg",
+  "title": "McDonald&#x27;s",
+  "own": "D01R09",
+  "ids": [
+   "D01R09",
+   "american",
+   "euro1",
+   "onTheGo",
+   "quickServiceRestaurant",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/rainforest-cafe": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n042910_2027dec31_world_rainforest-cafe_16-9_tcm752-294350.jpg",
+  "title": "Rainforest Café",
+  "own": "D01R11",
+  "ids": [
+   "D01R11",
+   "american",
+   "euro2",
+   "tableService",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/sports-bar": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N042722_2028nov23_world_sports-bar-key-visual_16-9_tcm752-291318.jpg",
+  "title": "Sports Bar &amp; Lounge",
+  "own": "D01R06",
+  "ids": [
+   "D01R06",
+   "american",
+   "bars",
+   "breakfast",
+   "essential",
+   "euro2",
+   "extra",
+   "royal",
+   "signature",
+   "tableService",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/starbucks-coffee": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n010612_2018jan01_starbucks_16-9_tcm752-157195.jpg",
+  "title": "Starbucks Coffee",
+  "own": "D01R12",
+  "ids": [
+   "D01R12",
+   "euro1",
+   "onTheGo",
+   "quickServiceRestaurant"
+  ]
+ },
+ "/en-gb/dining/disney-village/steakhouse": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041765_2030Jun11_world_the-steakhouse-disney-village_16-9_tcm752-287827.jpg",
+  "title": "The Steakhouse",
+  "own": "D01R08",
+  "ids": [
+   "D01R08",
+   "bbqSteakhouse",
+   "euro3",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService"
+  ]
+ },
+ "/en-gb/dining/disney-village/the-royal-pub": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n039389_2050dec31_world_the-royal-pub_zoomed_16-9_tcm752-291472.jpg",
+  "title": "The Royal Pub",
+  "own": "D01R23",
+  "ids": [
+   "D01R23",
+   "american",
+   "bars",
+   "euro2",
+   "tableService",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disney-village/vapiano": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n025504_2030mai30_vapiano-restaurant-pizza-dv_16-9_tcm752-162319.jpg",
+  "title": "Vapiano",
+  "own": "vapiano",
+  "ids": [
+   "euro1",
+   "italian",
+   "tableService",
+   "vapiano"
+  ]
+ },
+ "/en-gb/dining/disneyland-hotel/fleur-de-lys-bar-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N040491_2029jan24_world_disneyland-hotel-fleur-de-lys-with-guests_16-9_tcm752-280387.jpg",
+  "title": "Fleur de Lys Bar  | Disneyland Paris",
+  "own": "fleurdeLysBar",
+  "ids": [
+   "1",
+   "anchor2",
+   "fleurdeLysBar"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disneyland-hotel/fleur-de-lys-bar"
+ },
+ "/en-gb/dining/disneyland-hotel/la-foret-secrete-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/la-foret-secrete_dot-component-1_16-9_tcm752-285465.png",
+  "title": "La Forêt Secrète par Jean Imbert | Disneyland Paris",
+  "own": "heroRatatouille",
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "TitleHeaderTagH2FAQ",
+   "faqEmbeddedTitle",
+   "heroRatatouille"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disneyland-hotel/la-foret-secrete-par-jean-imbert"
+ },
+ "/en-gb/dining/disneyland-hotel/la-table-de-lumiere-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n039492_2026aug21_world_disneyland-hotel-la-table-de-lumiere-restaurant_16-9_tcm752-275691.jpg",
+  "title": "La Table de Lumière | Disneyland Paris",
+  "own": "laTableDeLumiere",
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "anchor2",
+   "laTableDeLumiere"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disneyland-hotel/la-table-de-lumiere"
+ },
+ "/en-gb/dining/disneyland-hotel/royal-banquet-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N040488_2031Jan24_world_disneyland-hotel-royal-banquet-mickey-minnie-family_16-9_tcm752-272583.jpg",
+  "title": "Royal Banquet | Disneyland Paris",
+  "own": "royalBanquet",
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "Q1",
+   "TitleHeaderTagH2FAQ",
+   "anchor2",
+   "faqEmbeddedTitle",
+   "royalBanquet"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disneyland-hotel/royal-banquet"
+ },
+ "/en-gb/dining/disneyland-park/agrabah-cafe": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041748_2030Jun11_world_agrabah-cafe-restaurant_16-9_tcm752-287882.jpg",
+  "title": "Agrabah Café Restaurant",
+  "own": "P1AR06",
+  "ids": [
+   "P1AR06",
+   "buffet",
+   "euro2",
+   "extra",
+   "middleEastern",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/au-chalet-de-la-marionnette": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017752_2050jan01_au-chalet-de-la-marionette_16-9_tcm752-158954.jpg",
+  "title": "Au Chalet de la Marionnette",
+  "own": "P1NR02",
+  "ids": [
+   "P1NR02",
+   "clickAndCollect",
+   "essential",
+   "euro1",
+   "extra",
+   "german",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/auberge-de-cendrillon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017780_2050jan01_auberge-de-cendrillon_16-9_tcm752-158869.jpg",
+  "title": "Auberge de Cendrillon",
+  "own": "P1NR01",
+  "ids": [
+   "HIGHLIGHT",
+   "P1NR01",
+   "characterDining",
+   "euro3",
+   "french",
+   "onlineBookings",
+   "premium",
+   "royal",
+   "tableService",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/cable-car-bake-shop": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n037271_2030apr10_world_food-cable-car-bake-shop-cupcake-cake-pie-kiri_16-9_tcm752-259139.jpg",
+  "title": "Cable Car Bake Shop",
+  "own": "P1MR00",
+  "ids": [
+   "P1MR00",
+   "american",
+   "euro1",
+   "quickServiceRestaurant"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/cafe-de-la-brousse": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n020785_2029may09_world_cafe-de-la-brousse-restaurant-exterior-view_16-9_tcm752-206191.jpg",
+  "title": "Café de la Brousse",
+  "own": "P1AR01",
+  "ids": [
+   "P1AR01",
+   "euro1",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/cafe-hyperion": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017816_2050dec31_world_enseigne-du-restaurant-cafe-hyperion-discoveryland_16-9_tcm752-249764.jpg",
+  "title": "Café Hyperion",
+  "own": "P1DR01",
+  "ids": [
+   "P1DR01",
+   "american",
+   "clickAndCollect",
+   "essential",
+   "euro1",
+   "extra",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/captain-jacks-restaurant-pirates": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041064_2029jul18_world_beauty-shot-captain-jacks_16-9_tcm752-279869.jpg",
+  "title": "Captain Jack&#x27;s - Restaurant des Pirates",
+  "own": "P1AR00",
+  "ids": [
+   "P1AR00",
+   "caribbean",
+   "euro3",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/casa-de-coco-restaurante-de-familia": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n039813_2026oct29_world_casa-de-coco-restaurant_16-9_tcm752-271685.jpg",
+  "title": "Casa de Coco – Restaurante de Familia",
+  "own": "P1RR01",
+  "ids": [
+   "P1RR01",
+   "clickAndCollect",
+   "essential",
+   "euro1",
+   "extra",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard",
+   "texMex",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/caseys-corner": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N022571_2031oct09_world_facade-du-restaurant-casey-corner-main-street-usa_16-9_tcm752-288991.jpg",
+  "title": "Casey’s Corner",
+  "own": "P1MR01",
+  "ids": [
+   "P1MR01",
+   "american",
+   "clickAndCollect",
+   "euro1",
+   "quickServiceRestaurant"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/colonel-hathis-pizza-outpost": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017838_2050jan01_colonel-hathis-pizza-outpost_16-9_tcm752-159292.jpg",
+  "title": "Colonel Hathi’s Outpost Restaurant",
+  "own": "P1AR03",
+  "ids": [
+   "P1AR03",
+   "essential",
+   "euro1",
+   "extra",
+   "indian",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/cookie-kitchen": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n016422_2028mar14_cookie-kitchen_16-9_tcm752-157215.jpg",
+  "title": "Cookie Kitchen",
+  "own": "P1MR03",
+  "ids": [
+   "P1MR03",
+   "euro1",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/cool-post": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N039817_2026Oct29_world_cool-post-sur-la-route-de-la-soif_16-9_tcm752-272082.jpg",
+  "title": "Cool Post",
+  "own": "P1AR05",
+  "ids": [
+   "P1AR05",
+   "euro1",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/cool-station": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014371_2027mar15_world_discoveryland-night-ambiance-space-mountain-orbitron-cool-station-counter_16-9_tcm752-206661.jpg",
+  "title": "Cool Station",
+  "own": "P1DR02",
+  "ids": [
+   "P1DR02",
+   "euro1",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/cowboy-cookout-barbecue": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n034297_2025sep08_world_cowboy-cookout-barbecue-restaurant-food-on-site_16-9_tcm752-254889.jpg",
+  "title": "Cowboy Cookout Barbecue",
+  "own": "P1RR00",
+  "ids": [
+   "P1RR00",
+   "clickAndCollect",
+   "essential",
+   "euro1",
+   "extra",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard",
+   "texMex",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/critter-corral": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N039821_2026oct29_world_frontierland-restaurant-critter-corral_16-9_tcm752-274396.jpg",
+  "title": "Critter Corral",
+  "own": "P1RR05",
+  "ids": [
+   "P1RR05",
+   "euro1",
+   "onTheGo",
+   "snacksandssweettreats"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/gibson-girl-ice-cream-parlour": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017873_2050jan01_the-gibson-girl-ice_cream-parlour_16-9_tcm752-159297.jpg",
+  "title": "The Gibson Girl Ice Cream Parlour",
+  "own": "P1MR04",
+  "ids": [
+   "P1MR04",
+   "euro1",
+   "iceCreams",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/ice-cream-company": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017651_2050jan01_the-ice-cream-compagny_16-9_tcm752-159076.jpg",
+  "title": "The Ice Cream Company",
+  "own": "P1MR05",
+  "ids": [
+   "P1MR05",
+   "euro1",
+   "iceCreams",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/l-arbre-enchante": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n009459_2024sep11_world_l-arbre-enchante-counter-front-view_16-9_tcm752-206541.jpg",
+  "title": "L&#x27;Arbre Enchanté",
+  "own": "P1NR00",
+  "ids": [
+   "P1NR00",
+   "euro1",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/last-chance-cafe": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017916_2050jan01_last-chance-cafe_16-9_tcm752-159053.jpg",
+  "title": "Last Chance Cafe",
+  "own": "P1RR02",
+  "ids": [
+   "P1RR02",
+   "clickAndCollect",
+   "euro1",
+   "quickServiceRestaurant",
+   "texMex",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/lucky-nugget-saloon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n042430_2032oct14_world_unlucky-nugget_16-9_tcm752-296791.jpg",
+  "title": "The Lucky Nugget Saloon",
+  "own": "P1RR03",
+  "ids": [
+   "P1RR03",
+   "american",
+   "essential",
+   "euro1",
+   "extra",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService",
+   "texMex"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/march-hare-refreshments": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n039552_2028aug31_world_prio-1-beauty-shots-young-adults-at-disneyland-paris_16-9_tcm752-294172.jpg",
+  "title": "March Hare Refreshments",
+  "own": "P1NR04",
+  "ids": [
+   "P1NR04",
+   "euro1",
+   "iceCreams",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/market-house-deli": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n034261_2027jun24_world_market-house-deli-sunset_16-9_tcm752-224423.jpg",
+  "title": "Market House Deli",
+  "own": "P1MR06",
+  "ids": [
+   "P1MR06",
+   "breakfast",
+   "euro1",
+   "french",
+   "quickServiceRestaurant",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/overland-trail-cafe": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N042138_2030jun11_world_overland-trail-cafe_16-9_tcm752-288676.jpg",
+  "title": "Overland Trail Cafe",
+  "own": "P1GR46",
+  "ids": [
+   "P1GR46",
+   "euro1",
+   "onTheGo",
+   "texMex",
+   "vegan"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/pizzeria-bella-notte": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n015182_2027jul10_pizzeria-belle-note_16-9_tcm752-157259.jpg",
+  "title": "Pizzeria Bella Notte",
+  "own": "P1NR06",
+  "ids": [
+   "P1NR06",
+   "essential",
+   "euro1",
+   "extra",
+   "italian",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/plaza-gardens-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N034008_2027Jul06_world_plaza-gardens-restaurant_16-9_tcm752-272447.jpg",
+  "title": "Plaza Gardens - Bookings and menu | Disneyland Paris",
+  "own": "P1MR08",
+  "ids": [
+   "P1MR08",
+   "buffet",
+   "euro2",
+   "french",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "vegetarian"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disneyland-park/plaza-gardens-restaurant"
+ },
+ "/en-gb/dining/disneyland-park/restaurant-hakuna-matata": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038847_2029oct04_world_hakuna-matata-menu-sandwich-food-ambiance_16-9_tcm752-258664.jpg",
+  "title": "Restaurant Hakuna Matata",
+  "own": "P1AR07",
+  "ids": [
+   "P1AR07",
+   "africanCuisine",
+   "clickAndCollect",
+   "essential",
+   "euro1",
+   "extra",
+   "plus",
+   "premium",
+   "quickServiceRestaurant",
+   "royal",
+   "signature",
+   "standard"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/rocket-cafe": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N039827_2026oct29_world_discoveryland-rocket-cafe_16-9_tcm752-274411.jpg",
+  "title": "Rocket Café",
+  "own": "P1DR03",
+  "ids": [
+   "P1DR03",
+   "euro1",
+   "onTheGo",
+   "snacksandssweettreats"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/silver-spur-steakhouse": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n024774_2030jul07_silver-spur-steakhouse_16-9_tcm752-159047.jpg",
+  "title": "Silver Spur Steakhouse",
+  "own": "P1RR04",
+  "ids": [
+   "P1RR04",
+   "bbqSteakhouse",
+   "euro2",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/the-old-mill": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n020839_2029may09_world_the-old-mill-counter_16-9_tcm752-272092.jpg",
+  "title": "The Old Mill",
+  "own": "P1NR05",
+  "ids": [
+   "P1NR05",
+   "euro1",
+   "onTheGo"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/toad-hall-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n018028_2050jan01_toad-hall-resrtaurant_16-9_tcm752-159805.jpg",
+  "title": "Toad Hall Restaurant",
+  "own": "P1NR07",
+  "ids": [
+   "P1NR07",
+   "euro1",
+   "quickServiceRestaurant",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/victorias-home-style-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N042135_2030jun11_world_world-premiere_16-9_tcm752-288671.jpg",
+  "title": "Victoria’s Home-Style Restaurant",
+  "own": "P1MR09",
+  "ids": [
+   "P1MR09",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disneyland-park/walts-american-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038016_2029mar28_world_walts-an-american-restaurant-food-30th_16-9_tcm752-255973.jpg",
+  "title": "Walt’s – an American restaurant",
+  "own": "P1MR10",
+  "ids": [
+   "P1MR10",
+   "american",
+   "euro3",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-davy-crockett-ranch/crocketts-saloon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017226_2020sep12_ranch-davy-crocketts-ranch_16-9_tcm752-159716.jpg",
+  "title": "Crockett’s Saloon",
+  "own": "H07R00",
+  "ids": [
+   "H07R00",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disneys-davy-crockett-ranch/davy-crocketts-tavern": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038857_2027oct16_world_davy-crockett-ranch-the-crockett-tavern-food-atmosphere_16-9_tcm752-254747.jpg",
+  "title": "Crockett’s Tavern",
+  "own": "H07R01",
+  "ids": [
+   "H07R01",
+   "american",
+   "buffet",
+   "essential",
+   "euro2",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-cheyenne/chuck-wagon-cafe": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n013632_2025sep22_world_chuckwagon-cafe-restaurant-disney-hotel-cheyenne_16-9_tcm752-249804.jpg",
+  "title": "Chuck Wagon Café",
+  "own": "H05R00",
+  "ids": [
+   "H05R00",
+   "buffet",
+   "essential",
+   "euro2",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "texMex",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-cheyenne/red-garter-saloon": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041759_2030Jun11_world_cheyenne-hotel-red-garter-saloon_16-9_tcm752-287831.jpg",
+  "title": "Red Garter Saloon",
+  "own": "H05R02",
+  "ids": [
+   "H05R02",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-cheyenne/starbucks-coffee": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043304_2032jun10_world_starbucks-hotel-cheyenne_16-9_tcm752-294935.jpg",
+  "title": "Starbucks Coffee at Disney Hotel Cheyenne | Disneyland Paris",
+  "own": "starbucksCoffeeAtCheyenneHotel",
+  "ids": [
+   "euro1",
+   "onTheGo",
+   "quickServiceRestaurant",
+   "starbucksCoffeeAtCheyenneHotel"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disneys-hotel-cheyenne/starbucks-coffee"
+ },
+ "/en-gb/dining/disneys-hotel-new-york/bleecker-street-lounge": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n035192_2024jun06_world_disney-hotel-new-york-art-of-marvel-bleecker-street-loung-bar_16-9_tcm752-254786.jpg",
+  "title": "Bleecker Street Lounge",
+  "own": "H02R06",
+  "ids": [
+   "H02R06",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-new-york/downtown-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n035127_2024jun02_world_downtown-restaurant-main-salon_16-9_tcm752-224889.jpg",
+  "title": "Downtown Restaurant",
+  "own": "H02R04",
+  "ids": [
+   "H02R04",
+   "american",
+   "buffet",
+   "euro2",
+   "italian",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-new-york/manhattan-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n035125_2024jun02_world_manhattan-restaurant-disney-hotel-new-york-art-of-marvel_16-9_tcm752-254893.jpg",
+  "title": "Manhattan Restaurant",
+  "own": "H02R00",
+  "ids": [
+   "H02R00",
+   "euro3",
+   "italian",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-new-york/skyline-bar": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n035194_2024jun02_world_skyline-bar-disney-hotel-new-york-the-art-of-marvel_16-9_tcm752-254806.jpg",
+  "title": "Skyline Bar",
+  "own": "H02R05",
+  "ids": [
+   "H02R05",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-santa-fe/la-cantina": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041762_2030Jun11_world_santa-fe-hotel-la-cantina-restaurant_16-9_tcm752-287828.jpg",
+  "title": "La Cantina",
+  "own": "H06R00",
+  "ids": [
+   "H06R00",
+   "buffet",
+   "essential",
+   "euro2",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "texMex",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-santa-fe/rio-grande-bar": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041070_2029jul18_world_beauty-shot-at-rio-grande-bar-hotel-santa-fe_16-9_tcm752-280198.jpg",
+  "title": "Rio Grande Bar",
+  "own": "H06R01",
+  "ids": [
+   "H06R01",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disneys-hotel-santa-fe/starbucks-coffee": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043304_2032jun10_world_starbucks-hotel-cheyenne_16-9_tcm752-294935.jpg",
+  "title": "Starbucks Coffee at Disney Hotel Santa Fe | Disneyland Paris",
+  "own": "starbucksCoffeeAtSantaFeHotel",
+  "ids": [
+   "euro1",
+   "onTheGo",
+   "quickServiceRestaurant",
+   "starbucksCoffeeAtSantaFeHotel"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/disneys-hotel-santa-fe/starbucks-coffee"
+ },
+ "/en-gb/dining/disneys-newport-bay-club/cape-cod": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n021224_2029jul27_world_cape-cod-hotel-newport_16-9_tcm752-160805.jpg",
+  "title": "Cape Cod",
+  "own": "H03R00",
+  "ids": [
+   "H03R00",
+   "buffet",
+   "euro2",
+   "extra",
+   "fishSpecialities",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-newport-bay-club/captains-quarters": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041749_2030Jun11_world_newport-bay-club-hotel-captains-quarters-bar_16-9_tcm752-287881.jpg",
+  "title": "Captain’s Quarters",
+  "own": "H03R01",
+  "ids": [
+   "H03R01",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/disneys-newport-bay-club/yacht-club-restaurant": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038024_2028aug17_world_le-yacht-club-restaurant-food-30th_16-9_tcm752-255996.jpg",
+  "title": "Yacht Club",
+  "own": "H03R03",
+  "ids": [
+   "H03R03",
+   "euro3",
+   "extra",
+   "fishSpecialities",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "tableService",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-sequoia-lodge/beaver-creek-tavern": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n018456_2050jan01_sequoia-lodge-beaver-creek-tavern-16-9_tcm752-159512.jpg",
+  "title": "Beaver Creek Tavern",
+  "own": "H04R00",
+  "ids": [
+   "H04R00",
+   "american",
+   "buffet",
+   "euro2",
+   "onlineBookings",
+   "plus",
+   "standard",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-sequoia-lodge/hunters-grill": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n018457_2050jan01_sequoia-lodge-hunters-grill_16-9_tcm752-159445.jpg",
+  "title": "Hunter&#x27;s Grill",
+  "own": "H04R01",
+  "ids": [
+   "H04R01",
+   "american",
+   "buffet",
+   "euro2",
+   "extra",
+   "onlineBookings",
+   "plus",
+   "premium",
+   "royal",
+   "signature",
+   "standard",
+   "vegan",
+   "vegetarian"
+  ]
+ },
+ "/en-gb/dining/disneys-sequoia-lodge/redwood-bar-and-lounge": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n039083_2026oct01_world_lifestyle-disney-hotel-sequoia-lodge-family_16-9_tcm752-255675.jpg",
+  "title": "Redwood Bar and Lounge",
+  "own": "H04R02",
+  "ids": [
+   "H04R02",
+   "bars"
+  ]
+ },
+ "/en-gb/dining/meal-plans": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n038972_2027oct20_world_lifestyle-stark-factory-pizza-and-pasta-meal-plan-screen_V2_FR_16-9_tcm752-277996.jpg",
+  "title": "Meal Plans at Disneyland Paris | Disneyland Paris",
+  "own": "mealPlan",
+  "ids": [
+   "Q10",
+   "Q8",
+   "Q9",
+   "QuickService",
+   "TitleHeaderTagH2FAQ",
+   "bookNow",
+   "booking",
+   "budget",
+   "buffet",
+   "candyFW",
+   "existingbooking",
+   "extraPlus",
+   "faqEmbeddedTitle",
+   "flexibility",
+   "howtoUse",
+   "mealPlan",
+   "menuSection",
+   "peaceOfMind",
+   "plus",
+   "premium",
+   "questionFive",
+   "questionFour",
+   "questionOne",
+   "questionSection",
+   "questionThree",
+   "questionTwo",
+   "simplicity",
+   "standard",
+   "stepFour",
+   "stepOne",
+   "stepThree",
+   "stepTwo",
+   "whatsmealPlan"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/meal-plans"
+ },
+ "/en-gb/dining/mobile-order": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n009513_2024sep11_world_caseys-corner-restaurant-app-promotion-mobile-order-EN_16-9_tcm752-251353.jpg",
+  "title": "Mobile Order at Disneyland Paris | Disneyland Paris",
+  "own": "mobileOrder",
+  "ids": [
+   "TitleHeaderTagH2FAQ",
+   "candyFW",
+   "faqEmbeddedTitle",
+   "instructions",
+   "mobileOrder",
+   "questions",
+   "restaurants",
+   "theSeason"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/dining/mobile-order"
+ },
+ "/en-gb/entertainment/characters-at-disneyland-paris": {
+  "img": null,
+  "title": "Characters at Disneyland Paris l Disneyland Paris | Disneyland Paris",
+  "own": "Characteurs",
+  "ids": [
+   "250518",
+   "250519",
+   "266908",
+   "266912",
+   "Characteurs",
+   "Q1",
+   "TitleHeaderTagH2FAQ",
+   "book",
+   "characterDining",
+   "characterEncounters",
+   "faqEmbeddedTitle",
+   "introSection",
+   "showsandParades"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/characters-at-disneyland-paris"
+ },
+ "/en-gb/entertainment/disney-adventure-world/a-celebration-in-arendelle": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043243_2033mar13_world_daw-a-celebration-in-arendelle-show-finale_16-9_tcm752-294256.jpg",
+  "title": "A Celebration in Arendelle | Disneyland Paris",
+  "own": "P2GS76",
+  "ids": [
+   "P2GS76",
+   "adults",
+   "allAges",
+   "classicCharacters",
+   "kids",
+   "liveEntertainment",
+   "outdoor",
+   "preschoolers",
+   "princessesAndPrinces",
+   "stageShows",
+   "teens",
+   "tweens"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/a-celebration-in-arendelle"
+ },
+ "/en-gb/entertainment/disney-adventure-world/animation-academy": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n036114_2050dec31_world_animation-celebration-academy-children-drawings-audiovisuel-castmember_16-9_tcm752-227264.jpg",
+  "title": "Animation Academy | Disneyland Paris",
+  "own": "P2GS54",
+  "ids": [
+   "P2GS54",
+   "adults",
+   "allAges",
+   "kids",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/animation-academy"
+ },
+ "/en-gb/entertainment/disney-adventure-world/disney-cascade-of-lights-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n042529_2032sep01_world_daw-nighttime-lake-show-disney-cascade-of-lights-supporting-visual-up_16-9_frame-DAW_tcm752-290445.jpg",
+  "title": "Disney Cascade of Lights | Disneyland Paris",
+  "own": "LakeShowHero",
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "LakeShowHero",
+   "Q1",
+   "Q10",
+   "Q11",
+   "Q12",
+   "Q2",
+   "Q3",
+   "Q5",
+   "Q6",
+   "Q7",
+   "Q8",
+   "Q9",
+   "TitleHeaderTagH2FAQ",
+   "faqEmbeddedTitle",
+   "highlights",
+   "information",
+   "introSection"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/disney-cascade-of-lights"
+ },
+ "/en-gb/entertainment/disney-adventure-world/disney-cascade-of-lights-rva": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd19798_2032sep01_world_cascade-of-lights-key-visual_16-9_tcm752-291191.jpg",
+  "title": "Reserved Viewing Area : Disney Cascade of Lights",
+  "own": "P2RV00",
+  "ids": [
+   "P2RV00",
+   "adults",
+   "allAges",
+   "classicCharacters",
+   "fireworks",
+   "kids",
+   "mickeyAndFriends",
+   "nighttimeSpectaculars",
+   "outdoor",
+   "preschoolers",
+   "princessesAndPrinces",
+   "reservedViewingArea",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disney-adventure-world/disneyprincess-cavalcade": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043744_2033jul22_world_disney-princess-cavalcade_16-9_tcm752-296292.jpg",
+  "title": "Disney Princess Cavalcade | Disneyland Paris",
+  "own": "DisneyPrincessCavalcadeHero",
+  "ids": [
+   "DisneyPrincessCavalcadeHero",
+   "book",
+   "information",
+   "introSection"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/disney-princess-cavalcade"
+ },
+ "/en-gb/entertainment/disney-adventure-world/doctor-strange-mystery-of-the-mystics": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd18938_2050dec31_world_doctor-strange-mystery-of-the-mystics-nighttime-show-concept-art_16-9_tcm752-278612.jpg",
+  "title": "Doctor Strange: Mystery of the Mystics!",
+  "own": "P2GS63",
+  "ids": [
+   "P2GS63",
+   "actionAndAdventure",
+   "adults",
+   "allAges",
+   "hideFromParksHoursPage",
+   "kids",
+   "nighttimeSpectaculars",
+   "outdoor",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disney-adventure-world/hero-training-center": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N038580-2025jul10-world-hero_training_center-avengers-campus_kid_captain_marvel_16-9_tcm752-252777.jpg",
+  "title": "Hero Training Center - Marvel photo | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "240409",
+   "240441",
+   "ACAttractions",
+   "Superpower",
+   "anchor2",
+   "avengerOnDuty",
+   "avengersCampus",
+   "bookingRequired",
+   "epicMoves",
+   "flightForce",
+   "heroicEncounter",
+   "information",
+   "interactiveMap",
+   "spiderMan",
+   "step3",
+   "virtualQueue",
+   "waltDisneyStudiosPark",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/hero-trainingcenter"
+ },
+ "/en-gb/entertainment/disney-adventure-world/heroicwelcome": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd20240_2050dec31_digital-disneyland-paris-hero-training-center_digital_map-new_heroic-welcome_full-width_desktop_tcm752-295083.png",
+  "title": "Heroic Welcome | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "ACAttractions",
+   "Superpower",
+   "WaltDisneyStudios",
+   "heroicAppearance",
+   "interactiveMap",
+   "multipleAppearances",
+   "rooftopsSpiderMan",
+   "wishlist"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/heroic-welcome"
+ },
+ "/en-gb/entertainment/disney-adventure-world/meet-character-zootropolis": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n042718_2050dec31_world_nick-wilde-meet-and-greet_16-9_tcm752-294188.jpg",
+  "title": "Meet a Character from Zootropolis",
+  "own": "P2MG67",
+  "ids": [
+   "P2MG67",
+   "adults",
+   "allAges",
+   "characterExperiences",
+   "classicCharacters",
+   "indoor",
+   "kids",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disney-adventure-world/meet-n-greet-jessie-or-friends": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd19475_2050dec31_world_worlds-of-pixar-meet-and-greet-jessy-toy-story_16-9_tcm752-289258.jpg",
+  "title": "Meet Jessie",
+  "own": "P2MG18",
+  "ids": [
+   "P2MG18",
+   "adults",
+   "allAges",
+   "characterExperiences",
+   "classicCharacters",
+   "kids",
+   "outdoor",
+   "pixarPals",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disney-adventure-world/meet-toy-story-character": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd19485_2050dec31_world_worlds-of-pixar-meet-and-greet-woody-toy-story_16-9_tcm752-287572.jpg",
+  "title": "Meet a Toy Story Character",
+  "own": "P2MG59",
+  "ids": [
+   "P2MG59",
+   "Photopass",
+   "adults",
+   "allAges",
+   "characterExperiences",
+   "classicCharacters",
+   "indoor",
+   "kids",
+   "preschoolers",
+   "teens",
+   "tweens",
+   "worldsOfPixar"
+  ]
+ },
+ "/en-gb/entertainment/disney-adventure-world/minnies-dream-factory-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N042984_2033feb16_world_show-minnies-dream-factory_2-1_tcm752-292638.jpg",
+  "title": "Minnie&#x27;s Dream Factory | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "TitleHeaderTagH2FAQ",
+   "faqEmbeddedTitle",
+   "introSection",
+   "moreExperiences",
+   "partnerhotels"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/minnies-dream-factory"
+ },
+ "/en-gb/entertainment/disney-adventure-world/pixar-show-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n037711_2030jul26_world_show-together-pixar-musical-adventure_16-9_tcm752-265844.jpg",
+  "title": "TOGETHER: a Pixar Musical Adventure | Disneyland Paris",
+  "own": "pixarshow",
+  "ids": [
+   "1",
+   "Q1",
+   "Q2",
+   "Q3",
+   "TitleHeaderTagH2FAQ",
+   "access",
+   "booking",
+   "boutiks",
+   "faqEmbeddedTitle",
+   "faqSection",
+   "lionKingshow",
+   "mickeyandthemagician",
+   "pixarshow",
+   "question2",
+   "question3",
+   "question4",
+   "question5",
+   "question6",
+   "question7",
+   "question8",
+   "show",
+   "sys"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/pixar-show"
+ },
+ "/en-gb/entertainment/disney-adventure-world/rencontre-royale-ref": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd20240_world_map-disneyland-paris-zoom-wof-rencontre-royale_16-9_tcm752-296652.jpg",
+  "title": "A Royal Encounter with Elsa and Anna from Frozen | Disneyland Paris",
+  "own": "rencontreRoyale",
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "faqEmbeddedTitle",
+   "rencontreRoyale"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/rencontre-royale"
+ },
+ "/en-gb/entertainment/disney-adventure-world/show-mickey-and-the-magician-old": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n024281_2030sep26_world_mickey-and-the-magician-show_16-9_tcm752-236247.jpg",
+  "title": "Mickey and the Magician - Spellbinding musical show | Disneyland Paris",
+  "own": "DisneysStarsOnParade",
+  "ids": [
+   "1",
+   "DisneysStarsOnParade",
+   "Q2",
+   "Q3",
+   "Q4",
+   "Q5",
+   "Q6",
+   "Q7",
+   "Q8",
+   "TitleHeaderTagH2FAQ",
+   "access",
+   "booking",
+   "faqEmbeddedTitle",
+   "information",
+   "questionSection",
+   "show",
+   "where"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-adventure-world/mickey-and-the-magician-show"
+ },
+ "/en-gb/entertainment/disney-adventure-world/stitch-live": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n014365_2027mar15_stitch_16-9_tcm752-158820.jpg",
+  "title": "Stitch Live!",
+  "own": "P2YS03",
+  "ids": [
+   "P2YS03",
+   "allAges",
+   "liveEntertainment",
+   "preschoolers"
+  ]
+ },
+ "/en-gb/entertainment/disney-stars-on-parade-old": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n027581_2050dec31_world_disney-stars-on-parade-supporting-visual_2-1_tcm752-229657.jpg",
+  "title": "Disney Stars on Parade | Disneyland Paris",
+  "own": "DisneysStarsOnParade",
+  "ids": [
+   "DisneysStarsOnParade",
+   "Q1",
+   "Q2",
+   "Q3",
+   "TitleHeaderTagH2FAQ",
+   "experience",
+   "faqEmbeddedTitle",
+   "information",
+   "infos",
+   "itinerary",
+   "parade",
+   "questions"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disney-stars-on-parade"
+ },
+ "/en-gb/entertainment/disney-stars-on-parade-rva": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n027581_2050dec31_world_disney-stars-on-parade-supporting-visual_16-9_tcm752-182809.jpg",
+  "title": "Reserved viewing area: Disney Stars on Parade",
+  "own": "P1RV01",
+  "ids": [
+   "P1RV01",
+   "allAges",
+   "hideFromParksHoursPage",
+   "outdoor",
+   "parades",
+   "reservedViewingArea"
+  ]
+ },
+ "/en-gb/entertainment/disney-village/web-radio": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/DV_webRadio_16-9_tcm752-158297.jpg",
+  "title": "Disney Village® Web Radio",
+  "own": "ENDWR03",
+  "ids": [
+   "ENDWR03",
+   "adults",
+   "allAges",
+   "kids",
+   "liveEntertainment",
+   "outdoor",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disneyland-park/discoveryland-theatre": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/65056-resource-cafe_530166151_090303_1000_2050dec31_mickey-philarmagic-aladdin-jasmine-donald-duck_16-9_tcm752-287004.jpg",
+  "title": "Mickey’s PhilharMagic",
+  "own": "P1G103",
+  "ids": [
+   "P1G103",
+   "adults",
+   "allAges",
+   "classicCharacters",
+   "familyAdventure",
+   "funForLittleOnes",
+   "guestMayGetSplashed",
+   "indoor",
+   "kids",
+   "mickeyAndFriends",
+   "notToBeMissed",
+   "preschoolers",
+   "princessesAndPrinces",
+   "teens",
+   "tweens",
+   "villains"
+  ]
+ },
+ "/en-gb/entertainment/disneyland-park/disney-performing-arts-programme": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n031237_2024jul16_world_disney-performing-art-orchestra_16-9_tcm752-257064.jpg",
+  "title": "Disney Performing Arts Programme",
+  "own": "ENDPAP07",
+  "ids": [
+   "ENDPAP07",
+   "adults",
+   "allAges",
+   "concerts",
+   "indoor",
+   "kids",
+   "liveEntertainment",
+   "preschoolers",
+   "stageShows",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disneyland-park/meet-mickey": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N042933_2050dec31_world_meet-mickey-fantasyland_16-9_tcm752-292321.jpg",
+  "title": "Meet Mickey Mouse",
+  "own": "P1M115",
+  "ids": [
+   "P1M115",
+   "PhotoPass",
+   "adults",
+   "allAges",
+   "characterExperiences",
+   "indoor",
+   "kids",
+   "mickeyAndFriends",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disneyland-park/meet-n-greet-minnie-across-europe": {
+  "img": null,
+  "title": "Characters at Disneyland Paris l Disneyland Paris | Disneyland Paris",
+  "own": "Characteurs",
+  "ids": [
+   "250518",
+   "250519",
+   "266908",
+   "266912",
+   "Characteurs",
+   "Q1",
+   "TitleHeaderTagH2FAQ",
+   "book",
+   "characterDining",
+   "characterEncounters",
+   "faqEmbeddedTitle",
+   "introSection",
+   "showsandParades"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/characters-at-disneyland-paris"
+ },
+ "/en-gb/entertainment/disneyland-park/mysterious-meeting": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n032993_2026oct21_world_phantom-manor-attraction-exterioir-view_16-9_tcm752-240105.jpg",
+  "title": "Mysterious Meeting",
+  "own": "P1MG65",
+  "ids": [
+   "P1MG65",
+   "adults",
+   "allAges",
+   "characterExperiences",
+   "classicCharacters",
+   "kids",
+   "mickeyAndFriends",
+   "outdoor",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disneyland-park/nighttime-show": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n041522_2032jan14_world_disney-tales-of-magic-key-visual-coco-miguel_16-9_tcm752-285913.jpg",
+  "title": "Reserved viewing area: Disney Tales of Magic",
+  "own": "P1RV00",
+  "ids": [
+   "P1RV00",
+   "adults",
+   "allAges",
+   "fireworks",
+   "kids",
+   "nighttimeSpectaculars",
+   "outdoor",
+   "preschoolers",
+   "reservedViewingArea",
+   "teens",
+   "tweens"
+  ]
+ },
+ "/en-gb/entertainment/disneyland-park/princess-pavilion": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n017712_2050jan01_princess-pavilion_16-9_tcm752-159576.jpg",
+  "title": "Princess Pavilion: A Royal Invitation  | Disneyland Paris",
+  "own": "P1M116",
+  "ids": [
+   "P1M116",
+   "adults",
+   "allAges",
+   "characterExperiences",
+   "disneyPrincesses",
+   "indoor",
+   "kids",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disneyland-park/princess-pavilion"
+ },
+ "/en-gb/entertainment/disneyland-park/starport": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n025788_2025mar17_world_starport-discoveryland-darth-vader-boy_16-9_tcm752-258483.jpg",
+  "title": "Welcome to Starport: A Star Wars Encounter | Disneyland Paris",
+  "own": "P1M117",
+  "ids": [
+   "P1M117",
+   "adults",
+   "allAges",
+   "characterExperiences",
+   "classicCharacters",
+   "indoor",
+   "kids",
+   "preschoolers",
+   "teens",
+   "tweens"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disneyland-park/starport"
+ },
+ "/en-gb/entertainment/disneyland-park/the-lion-king-rhythms-of-the-pride-lands": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n031658_2050dec31_lion-king-show-shadowland_16-9_tcm752-225639.jpg",
+  "title": "The spectacular Lion King: Rhythms of the Pride Lands show | Disneyland Paris",
+  "own": "lionKing",
+  "ids": [
+   "1",
+   "Q",
+   "TitleHeaderTagH2FAQ",
+   "access",
+   "bookSection",
+   "faqEmbeddedTitle",
+   "frontierlandTheater",
+   "lionKing",
+   "question8",
+   "questionOne",
+   "questionSeven",
+   "questionSix",
+   "questionThree",
+   "questionTwo",
+   "scheduleSection",
+   "showSection",
+   "showTimes"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/disneyland-park/lion-king-show"
+ },
+ "/en-gb/entertainment/nighttime-spectacular-app": {
+  "img": null,
+  "title": "Disney Tales of Magic | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "8MinutesShuttle",
+   "9",
+   "ALLS",
+   "Accessibility",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NighttimeSpectacularHero",
+   "NoFreeShuttle",
+   "PIVA",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "ViewingArea"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/nighttime-spectacular"
+ },
+ "/en-gb/entertainment/shows-and-parades": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/hd00000_premium-hub-shows-horizontal-background_tcm752-263196.jpg",
+  "title": "Shows and Parades at Disneyland Paris | Disneyland Paris",
+  "own": null,
+  "ids": [
+   "1",
+   "2",
+   "3",
+   "MinniesDreamFactory",
+   "Shows",
+   "TitleHeaderTagH2FAQ",
+   "christmas",
+   "faqEmbeddedTitle",
+   "halloween",
+   "introSection",
+   "moreExperiences",
+   "partnerhotels",
+   "shows"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/entertainment/shows-and-parades"
+ },
+ "/en-gb/hotels/adagio-marne-la-vallee-val-deurope/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n034112_2049mar01_world_adagio-marne-la-vallee-val-d-europe-hotel-kids-corner_16-9_tcm752-215470.jpg",
+  "title": "Aparthotel Adagio Val d&#x27;Europe | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "Bathtub",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "FamilyApartments",
+   "HeatedIndoor",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "STAY",
+   "SnackBar",
+   "SpaciousApartments",
+   "VVNP",
+   "activities"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/adagio-marne-la-vallee-val-deurope"
+ },
+ "/en-gb/hotels/all-suites-appart-hotel-val-d-europe/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n029930_2047mar01_world_adagio-val-d-europe-hotel-outside_16-9_zoom2_tcm752-215530.jpg",
+  "title": "All Suites Appart Hotel Val d&#x27;Europe | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "8MinutesShuttle",
+   "96929",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "BarLounge",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "FamilyRooms",
+   "InteriorDesign",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "STAY",
+   "Shower",
+   "StandardRooms",
+   "VVNP"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/all-suites-appart-hotel-val-d-europe"
+ },
+ "/en-gb/hotels/campanile-val-de-france/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n043494_2027dec31_world_partner-hotel-campanile-val-de-france_16-9_tcm752-294976.jpg",
+  "title": "Campanile Val de France | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "CampanileBar",
+   "CharmingSetting",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "EducationFarm",
+   "Entrance",
+   "Evening",
+   "FamilyRooms4",
+   "FitnessSpace",
+   "FrenchCountryStyle",
+   "IndoorPlayArea",
+   "KISP",
+   "KYMA",
+   "LeMarcheGourmand",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/campanile-val-de-france"
+ },
+ "/en-gb/hotels/disneyland-hotel": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N040466_2029Jan24_world_disneyland-hotel-princely-suite-beauty-and-the-beast_16-9_tcm752-272579.jpg",
+  "title": "Disneyland Hotel | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "5",
+   "64001",
+   "64002",
+   "66000",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "Cocktails",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "PressReader",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "activities",
+   "book"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneyland-hotel"
+ },
+ "/en-gb/hotels/disneyland-hotel/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N040466_2029Jan24_world_disneyland-hotel-princely-suite-beauty-and-the-beast_16-9_tcm752-272579.jpg",
+  "title": "Disneyland Hotel | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "5",
+   "64001",
+   "64002",
+   "66000",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "Cocktails",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "PressReader",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "activities",
+   "book"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneyland-hotel"
+ },
+ "/en-gb/hotels/disneys-davy-crockett-ranch/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n041686_2050dec31_world_new-bungalows-of-the-disney-ranch-davy-crockett-16-9_frame-wood_tcm752-287761.png",
+  "title": "Disney Davy Crockett Ranch | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "Q1",
+   "Q2",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "bookstay",
+   "eurostar",
+   "faqEmbeddedTitle",
+   "flights",
+   "freeShuttlepartnershotels",
+   "heroDDCR"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneys-davy-crockett-ranch"
+ },
+ "/en-gb/hotels/disneys-hotel-cheyenne/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n016142_2022sep14_world_disney-hotel-cheyenne_16-9_tcm752-159374.jpg",
+  "title": "Disney Hotel Cheyenne | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "Laundromat",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "Q1",
+   "Q2",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "bestPrice",
+   "bookstay",
+   "eurostar",
+   "faqEmbeddedTitle",
+   "flights"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneys-hotel-cheyenne"
+ },
+ "/en-gb/hotels/disneys-hotel-new-york/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n015567b_2027sep30_world_disney-new-york-art-of-marvel-hotel-exterior-view-concept-art_16-9_tcm752-195183.jpg",
+  "title": "Disney Hotel New York - The Art of Marvel | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "Q3",
+   "Q4",
+   "Q5",
+   "Q6",
+   "Q7",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "activities",
+   "amenities",
+   "anchor1"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneys-hotel-new-york"
+ },
+ "/en-gb/hotels/disneys-hotel-santa-fe/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n016223_2028mar14_santa-fe-hotel-outside_16-9_tcm752-158205.jpg",
+  "title": "Disney Hotel Santa Fe | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "Q1",
+   "Q2",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "bookstay",
+   "eurostar",
+   "faqEmbeddedTitle",
+   "flights",
+   "freeShuttlepartnershotels",
+   "heroDSFH"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneys-hotel-santa-fe"
+ },
+ "/en-gb/hotels/disneys-newport-bay-club/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n025204_2050sep30_world_newport-bay-club-at-nightfall_16-9v1_tcm752-275097.jpg",
+  "title": "Disney Newport Bay Club | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "63192",
+   "64001",
+   "64002",
+   "66000",
+   "66073",
+   "67000",
+   "68000",
+   "69000",
+   "71000",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "Q1",
+   "Q2"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneys-newport-bay-club"
+ },
+ "/en-gb/hotels/disneys-sequoia-lodge/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n018069_2021sep23_fitness-centre-sequoia-lodge_R_16-9-min_tcm752-240335.png",
+  "title": "Disney Sequoia Lodge Hotel | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "Q1",
+   "Q2",
+   "STAY",
+   "TitleHeaderTagH2FAQ",
+   "VVNP",
+   "bestPrice",
+   "bookstay",
+   "eurostar",
+   "faqEmbeddedTitle",
+   "flights",
+   "freeShuttlepartnershotels"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/disneys-sequoia-lodge"
+ },
+ "/en-gb/hotels/explorers-fabulous-hotels-group/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n040255_2033jun30_explorers-fabulous-hotels-groups-exterior-view_16-9_tcm752-280195.jpg",
+  "title": "Explorers Fabulous Hotels Group | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "5",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "GalionsPub",
+   "HeatedIndorPool",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "PiratesIsland",
+   "STAY",
+   "ThemedRooms4",
+   "ThemedRooms6",
+   "TradersBar"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/explorers-fabulous-hotels-group"
+ },
+ "/en-gb/hotels/hotel-bb/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n034441_2024nov21_world_b-and-b-hotel-outside_16-9_zoom_tcm752-214767.jpg",
+  "title": "B&amp;B Hôtel | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "63205",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "Atmosphere",
+   "BBHO",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "FamilyRooms",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "RoomsForFamily",
+   "STAY",
+   "VVNP",
+   "activities",
+   "actualitySection"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/hotel-bb"
+ },
+ "/en-gb/hotels/hotel-lelysee-val-deurope/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n023693_2025dec31_world_hotel-lelysee_16-9_tcm752-227716.png",
+  "title": "Hôtel l&#x27;Elysée Val d&#x27;Europe | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "Bar",
+   "ConnectingRooms",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "FrenchStyle",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "RefinedRooms",
+   "Restaurant",
+   "STAY",
+   "VVNP",
+   "activities"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/hotel-lelysee-val-deurope"
+ },
+ "/en-gb/hotels/ki-space-hotel-spa/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n041683_2070mar01_world_ki-space-partner-hotel-swimming-pool_16-9_tcm752-286514.jpg",
+  "title": "Ki Space Hotel &amp; Spa  | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "BarLounge",
+   "ContemporaryDesign",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "FamilyRooms",
+   "InteriorDesign",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NoFreeShuttle",
+   "PIVA",
+   "STAY",
+   "StandardRooms",
+   "VVNP",
+   "activities"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/ki-space-hotel-spa"
+ },
+ "/en-gb/hotels/staycity-aparthotels/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/N041801_2030dec31_staycity-aparthotels_16-9_tcm752-296548.jpg",
+  "title": "Staycity Aparthotels Paris, Marne-la-Vallée | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10MinutesWalk",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "2D2N",
+   "3",
+   "3D3N",
+   "4",
+   "4D4N",
+   "8MinutesShuttle",
+   "ALLS",
+   "Afternoon",
+   "BBHO",
+   "Bathtub",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "DiningSnack",
+   "DuplexApartments",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "KISP",
+   "KYMA",
+   "MYTE",
+   "Midday",
+   "Morning",
+   "NaturalSetting",
+   "NoFreeShuttle",
+   "PIVA",
+   "Pool",
+   "STAY",
+   "SpaciousApartments",
+   "VVNP"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/staycity-aparthotels"
+ },
+ "/en-gb/hotels/villages-nature-paris/index-redirect": {
+  "img": "https://media.disneylandparis.com/d4th/en-gb/images/n029449_2040Jan01_world_appartement-premium_villages-nature-paris_16-9_tcm752-267041.jpg",
+  "title": "Les Villages Nature Paris | Disneyland Paris",
+  "own": "DDLH",
+  "ids": [
+   "1",
+   "10",
+   "10MinutesWalk",
+   "11",
+   "12",
+   "15MinutesByCar",
+   "15MinutesWalk",
+   "2",
+   "20MinutesWalk",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "8MinutesShuttle",
+   "9",
+   "ALLS",
+   "Activities",
+   "ActivitiesAllYearLong",
+   "Afternoon",
+   "AquaMundo",
+   "BBHO",
+   "BakerySupermarket",
+   "BellevieFarm",
+   "DCHH",
+   "DDCH",
+   "DDLH",
+   "DNBH",
+   "DNYH",
+   "DSFH",
+   "DSLH",
+   "ELVE",
+   "Entrance",
+   "Evening",
+   "ExtraordinaryGardens",
+   "KISP",
+   "KYMA",
+   "LagonCafe",
+   "LakesidePromenade"
+  ],
+  "final": "https://www.disneylandparis.com/en-gb/hotels/villages-nature-paris"
+ }
+}

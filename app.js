@@ -33,6 +33,8 @@ let favs = new Set(store.get('dlp.favs', []));
 let plan = store.get('dlp.plan', null) || defaultPlan();
 let checks = store.get('dlp.checks', null) || defaultChecks();
 let custom = store.get('dlp.custom', []);
+let done = store.get('dlp.done', {});   // rides we already did: key -> date
+const saveDone = () => store.set('dlp.done', done);
 let curDay = TRIP_DAYS.includes(parisDate()) ? parisDate() : TRIP_DAYS[0];
 let kind = 'ride', park = 'all', filt = new Set(), sortBy = 'rate', query = '', listTab = 'check';
 let map = null, layers = {}, markers = new Map(), meMarker = null, meCircle = null, routeLayer = null;
@@ -83,7 +85,14 @@ function walkOf(it) {
 }
 function walkTxt(it) {
   const w = walkOf(it); if (!w) return '';
-  return w.m > 3000 ? `${(w.m / 1000).toFixed(1)} ק״מ` : `🚶 ${w.min} דק׳`;
+  if (w.m > 3000) return `📍 ${(w.m / 1000).toFixed(1)} ק״מ`;
+  return `🚶 ${w.min} דק׳ · ${w.m < 1000 ? Math.round(w.m / 10) * 10 + ' מ׳' : (w.m / 1000).toFixed(1) + ' ק״מ'}`;
+}
+function toggleDone(k, x, y) {
+  if (done[k]) { delete done[k]; toast('↺ הסימון בוטל'); }
+  else { done[k] = parisDate(); toast('✅ סומן שעשינו, הוא לא יופיע ב״מה משתלם עכשיו״'); if (x) sparkle(x, y); }
+  saveDone(); refreshView(); refreshMarkers();
+  if (!$('#sheetWrap').hidden && $('#sheet [data-done]')) showItem(k);
 }
 
 /* ---------------- live data ---------------- */
@@ -174,14 +183,18 @@ function kidsOk(it) {
   return hs.length ? hs.every(h => h >= it.h) : false;
 }
 function renderPicks() {
-  const rides = D.items.filter(i => i.type === 'ride' && i.tod >= 1 && kidsOk(i) && !WALK.has(i.k));
+  const rides = D.items.filter(i => i.type === 'ride' && i.tod >= 1 && (i.rate || 0) >= 1 && i.scary <= 1 && kidsOk(i) && !WALK.has(i.k) && !done[i.k]);
   const open = rides.map(i => ({ i, l: liveOf(i.k) })).filter(x => x.l && x.l.status === 'OPERATING' && x.l.w != null);
   const el = $('#picks');
-  if (!open.length) { el.innerHTML = '<p class="muted">כשהפארקים פתוחים יופיעו כאן המתקנים עם התור הקצר ביותר.</p>'; return; }
+  const doneN = D.items.filter(i => i.type === 'ride' && done[i.k]).length;
+  const top = pos ? '' : '<button class="btn sm ghost" id="btnLocNow" style="margin-bottom:6px">📍 הצגת המרחק ממני</button>';
+  const foot = doneN ? `<p class="muted small" style="margin-top:8px">✅ ${doneN} מתקנים סומנו שעשינו, ולכן הם לא מוצגים כאן. <a href="#" id="showDone">הצגה</a></p>` : '';
+  if (!open.length) { el.innerHTML = top + '<p class="muted">כשהפארקים פתוחים יופיעו כאן המתקנים עם התור הקצר ביותר.</p>' + foot; return; }
   open.forEach(x => { const w = walkOf(x.i); x.score = x.l.w + (w ? w.min : 0) - (x.i.rate || 0) * 3; });
   open.sort((a, b) => a.score - b.score);
-  el.innerHTML = open.slice(0, 7).map(({ i, l }) => `<div class="pick" data-k="${i.k}"><span class="em">${emojiOf(i)}</span>
-    <span class="nm">${esc(i.he)}<small>${esc(i.land || '')} ${walkTxt(i)}</small></span><span class="wait ${waitClass(l.w)}">⏱ ${l.w} דק׳</span></div>`).join('');
+  el.innerHTML = top + open.slice(0, 8).map(({ i, l }) => `<div class="pick" data-k="${i.k}"><span class="em">${emojiOf(i)}</span>
+    <span class="nm">${esc(i.he)}<small>${esc(i.land || '')}</small>${pos ? `<small class="dist">${walkTxt(i)}</small>` : ''}</span>
+    <span class="wait ${waitClass(l.w)}">⏱ ${l.w} דק׳</span><button class="icon-btn donebtn" data-done="${i.k}" aria-label="סימון שעשינו" title="עשינו!">✓</button></div>`).join('') + foot;
 }
 function renderShowsToday() {
   const now = Date.now(), rows = [];
@@ -213,7 +226,7 @@ async function loadWeather() {
 /* ---------------- PLACES view ---------------- */
 const KINDS = [['ride', '🎢 מתקנים'], ['food', '🍽️ אוכל'], ['show', '🎭 מופעים'], ['hotel', '🏨 מלונות'], ['paris', '🗼 פריז ועוד']];
 const FILTERS = {
-  ride: [['rec', '⭐ מומלץ לנו'], ['tod', '👶 מושלם לפעוטות'], ['calm', '🙂 לא מפחיד'], ['kids', '✅ שתיהן יכולות'], ['fav', '❤️ מועדפים']],
+  ride: [['rec', '⭐ מומלץ לנו'], ['tod', '👶 מושלם לפעוטות'], ['calm', '🙂 לא מפחיד'], ['kids', '✅ שתיהן יכולות'], ['notdone', '🙈 בלי מה שעשינו'], ['done', '✅ מה שעשינו'], ['fav', '❤️ מועדפים']],
   food: [['character', '👑 עם דמויות'], ['sit', '🍷 שולחן או בופה'], ['quick', '🍔 מהיר'], ['snack', '🍦 חטיפים'], ['book', '📅 צריך להזמין'], ['fav', '❤️ מועדפים']],
   show: [['parade', '🎉 מצעדים'], ['night', '🎆 מופעי לילה'], ['stage', '🎭 במה'], ['meet', '🤝 מפגשים'], ['fav', '❤️ מועדפים']],
   hotel: [['disney', '🏰 מלונות דיסני'], ['partner', '🏩 מלונות שותפים'], ['fav', '❤️ מועדפים']],
@@ -227,6 +240,8 @@ function kindMatch(it) {
 function passFilters(it) {
   for (const f of filt) {
     if (f === 'fav' && !favs.has(it.k)) return false;
+    if (f === 'notdone' && done[it.k]) return false;
+    if (f === 'done' && !done[it.k]) return false;
     if (kind === 'ride') {
       if (f === 'rec' && !(it.rate >= 2)) return false;
       if (f === 'tod' && it.tod !== 2) return false;
@@ -252,6 +267,7 @@ function passFilters(it) {
 }
 function badgesOf(it) {
   const b = [];
+  if (done[it.k]) b.push(`<span class="b ok">✅ עשינו (${+done[it.k].slice(8, 10)}.${+done[it.k].slice(5, 7)})</span>`);
   if (it.mine) b.push('<span class="b star">⭐ שלנו</span>');
   if (it.rate >= 3) b.push('<span class="b star">✨ חובה</span>'); else if (it.rate === 2) b.push('<span class="b ok">👍 מומלץ</span>');
   if (it.type === 'ride') {
@@ -289,7 +305,7 @@ function renderPlaces() {
 }
 function cardHtml(it) {
   const img = it.img ? `<img loading="lazy" src="${esc(it.img.src)}" alt="${esc(it.he)}">` : emojiOf(it);
-  return `<article class="pc" data-k="${it.k}">
+  return `<article class="pc ${done[it.k] ? 'isdone' : ''}" data-k="${it.k}">
     <div class="ph">${img}${it.type === 'ride' ? waitBadge(it.k) : ''}
       <button class="fav" data-fav="${it.k}" aria-label="מועדף">${favs.has(it.k) ? '❤️' : '🤍'}</button></div>
     <div class="bd"><h3>${esc(it.he)}</h3>${it.en ? `<div class="en">${esc(it.en)}</div>` : ''}
@@ -315,8 +331,10 @@ function liveBox(it) {
 function showItem(k) {
   const it = byK.get(k); if (!it) return;
   const parent = it.parent ? byK.get(it.parent) : null;
-  const im = it.img ? `<img src="${esc(it.img.src)}" alt="${esc(it.he)}">` : `<div class="noimg">${emojiOf(it)}</div>`;
-  const credit = it.img ? `<div class="cr">📷 ${esc(it.img.by || 'Wikimedia Commons')} · ${esc(it.img.lic || '')} · <a href="${esc(it.img.page)}" target="_blank" rel="noopener">מקור</a>${it.img.other ? ' · <span dir="rtl">תמונה להמחשה מפארק דיסני אחר</span>' : ''}</div>` : '';
+  const im = it.img ? `<img src="${esc(it.img.big || it.img.src)}" alt="${esc(it.he)}">` : `<div class="noimg">${emojiOf(it)}</div>`;
+  const credit = !it.img ? '' : it.img.official
+    ? `<div class="cr">📷 © Disney · <a href="${esc(it.img.page)}" target="_blank" rel="noopener">העמוד הרשמי באתר דיסנילנד פריז</a></div>`
+    : `<div class="cr">📷 ${esc(it.img.by || 'Wikimedia Commons')} · ${esc(it.img.lic || '')} · <a href="${esc(it.img.page)}" target="_blank" rel="noopener">מקור</a></div>`;
   const kids = it.type === 'ride' ? `<div class="badges" style="margin:6px 0">${settings.kids.map(kd => {
       if (!it.h) return `<span class="b ok">✅ ${esc(kd.label)}</span>`;
       if (!kd.h) return `<span class="b">❔ ${esc(kd.label)}: צריך להזין גובה בהגדרות</span>`;
@@ -336,6 +354,7 @@ function showItem(k) {
       ${it.lat != null ? `<button class="btn ghost" data-showmap="${it.k}">🗺️ במפה</button>` : ''}
       ${nav ? `<a class="btn ghost" href="${nav}" target="_blank" rel="noopener">🧭 ניווט</a>` : ''}
       <a class="btn ghost" href="${imgSearch}" target="_blank" rel="noopener">🔎 עוד תמונות</a>
+      ${['ride', 'show'].includes(it.type) ? `<button class="btn ${done[it.k] ? 'ghost' : 'gold'}" data-done="${it.k}">${done[it.k] ? '↺ ביטול ״עשינו״' : '✅ עשינו!'}</button>` : ''}
       <button class="btn ghost" data-fav="${it.k}">${favs.has(it.k) ? '❤️ מועדף' : '🤍 למועדפים'}</button>
     </div></div>`);
 }
@@ -383,7 +402,7 @@ function planText() {
 const b64e = s => btoa(unescape(encodeURIComponent(s))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 const b64d = s => decodeURIComponent(escape(atob(s.replace(/-/g, '+').replace(/_/g, '/'))));
 function shareLink() {
-  const url = location.origin + location.pathname + '#import=' + b64e(JSON.stringify({ v: 1, plan, checks, custom }));
+  const url = location.origin + location.pathname + '#import=' + b64e(JSON.stringify({ v: 1, plan, checks, custom, done }));
   if (navigator.share) navigator.share({ title: 'הלו״ז שלנו לדיסני', text: 'הלו״ז והצ׳קליסט שלנו – פותחים ומייבאים ✨', url }).catch(() => {});
   else navigator.clipboard.writeText(url).then(() => toast('🔗 הקישור הועתק'), () => prompt('העתיקו את הקישור:', url));
 }
@@ -395,6 +414,7 @@ function tryImportHash() {
   $('#doImport').onclick = () => { applyImport(data); history.replaceState(null, '', location.pathname); closeSheet(); };
 }
 function applyImport(data) {
+  if (data.done) { done = data.done; saveDone(); }
   if (data.plan) { plan = data.plan; savePlan(); }
   if (data.checks) { checks = data.checks; custom = data.custom || custom; saveChecks(); }
   renderPlan(); renderToday(); renderLists(); toast('✨ יובא בהצלחה');
@@ -425,14 +445,14 @@ function renderLists() {
       <button class="btn gold" id="saveKids">💾 שמירה</button></div>
       <div class="card"><h2>🧹 נתונים</h2><p class="muted small">מוחק את הלו״ז, הצ׳קליסט, המועדפים וההגדרות מהטלפון הזה.</p><button class="btn ghost danger" id="wipe">מחיקת כל הנתונים המקומיים</button></div>`;
   } else {
-    const credits = D.items.filter(i => i.img).map(i => `<li>${esc(i.he)}: <a href="${esc(i.img.page)}" target="_blank" rel="noopener">${esc(i.img.by || 'Wikimedia')}</a> · ${esc(i.img.lic || '')}</li>`).join('');
+    const credits = D.items.filter(i => i.img && !i.img.official).map(i => `<li>${esc(i.he)}: <a href="${esc(i.img.page)}" target="_blank" rel="noopener">${esc(i.img.by || 'Wikimedia')}</a> · ${esc(i.img.lic || '')}</li>`).join('');
     body.innerHTML = `<div class="card"><h2>ℹ️ על האפליקציה</h2>
       <p>אפליקציה משפחתית פרטית לתכנון הטיול. <b>היא לא קשורה ל-Disney</b> ולא מחליפה את האפליקציה הרשמית של Disneyland Paris. את ההזמנות עושים שם.</p>
       <ul>
         <li>📡 זמני תורים, מצב מתקנים, שעות מופעים ושעות פתיחה: <a href="https://themeparks.wiki" target="_blank" rel="noopener">ThemeParks.wiki</a>, שמקבל אותם מהמערכות של דיסני. מתעדכן כל 5 דקות.</li>
         <li>⚠️ אין סנכרון להזמנות האישיות בחשבון הדיסני (מסעדות, Premier Access), כי לדיסני אין ממשק ציבורי לזה. רושמים אותן בלו״ז.</li>
         <li>🗺️ מפה: © OpenStreetMap contributors. ☁️ מזג אוויר: Open-Meteo.</li>
-        <li>📷 תמונות: Wikimedia Commons, ברישיונות חופשיים (פירוט למטה). חלקן מפארקי דיסני אחרים, להמחשה בלבד.</li>
+        <li>📷 תמונות המתקנים, המסעדות, המופעים ומלונות דיסני: © Disney, מוצגות ישירות מהאתר הרשמי של דיסנילנד פריז (לא נשמרות כאן). תמונות המקומות בפריז: Wikimedia Commons, ברישיונות חופשיים.</li>
         <li>💡 טיפים: סיכום של קבוצות פייסבוק ישראליות ושל מחקר ברשת, נכון לנובמבר 2026.</li>
       </ul><p class="muted small">גרסת נתונים: ${esc(D.built)}</p></div>
       <div class="card"><h2>📷 קרדיטים לתמונות</h2><ul class="small">${credits}</ul></div>`;
@@ -450,13 +470,13 @@ let layerOn = new Set(store.get('dlp.layers', ['ride', 'show', 'hotel', 'paris',
 function markerIcon(it) {
   const l = it.type === 'ride' ? liveOf(it.k) : null;
   const mw = l && l.status === 'OPERATING' && l.w != null ? `<span class="mw ${waitClass(l.w)}">${l.w}</span>` : l && l.status !== 'OPERATING' ? '<span class="mw">✕</span>' : '';
-  const big = it.mine;
-  return L.divIcon({ className: '', html: `<div class="mk ${it.type} ${big ? 'mine' : ''}">${emojiOf(it)}${mw}</div>`, iconSize: big ? [40, 40] : [32, 32], iconAnchor: big ? [20, 20] : [16, 16] });
+  const big = it.mine, dn = done[it.k];
+  return L.divIcon({ className: '', html: `<div class="mk ${it.type} ${big ? 'mine' : ''} ${dn ? 'isdone' : ''}"><span class="emo">${emojiOf(it)}</span>${dn ? '<span class="donemark">✓</span>' : mw}</div>`, iconSize: big ? [40, 40] : [32, 32], iconAnchor: big ? [20, 20] : [16, 16] });
 }
 function popupHtml(it) {
   return `<div class="pop">${it.img ? `<img src="${esc(it.img.src)}" alt="">` : ''}<h4>${emojiOf(it)} ${esc(it.he)}</h4>
     <div>${it.type === 'ride' ? waitBadge(it.k) : ''} <span class="muted small">${walkTxt(it)}</span></div>
-    <div class="row gap" style="margin-top:6px"><button class="btn sm" data-k="${it.k}">פרטים</button><button class="btn sm ghost" data-addplan="${it.k}">📅</button></div></div>`;
+    <div class="row gap" style="margin-top:6px"><button class="btn sm" data-k="${it.k}">פרטים</button><button class="btn sm ghost" data-addplan="${it.k}">📅</button>${it.type === 'ride' ? `<button class="btn sm ghost" data-done="${it.k}">${done[it.k] ? '↺' : '✓ עשינו'}</button>` : ''}</div></div>`;
 }
 function initMap() {
   if (map || typeof L === 'undefined') return;
@@ -472,8 +492,9 @@ function initMap() {
   }
   // Leaflet stops click propagation inside popups, so wire popup buttons directly
   map.on('popupopen', ev => {
-    ev.popup.getElement().querySelectorAll('[data-k],[data-addplan]').forEach(b => b.addEventListener('click', e2 => {
+    ev.popup.getElement().querySelectorAll('[data-k],[data-addplan],[data-done]').forEach(b => b.addEventListener('click', e2 => {
       e2.preventDefault(); map.closePopup();
+      if (b.dataset.done) return toggleDone(b.dataset.done, e2.clientX, e2.clientY);
       b.dataset.addplan ? planForm(null, curDay, b.dataset.addplan) : showItem(b.dataset.k);
     }));
   });
@@ -500,7 +521,7 @@ function locate(fly = true) {
       } else { meMarker.setLatLng([pos.lat, pos.lon]); meCircle.setLatLng([pos.lat, pos.lon]).setRadius(pos.acc); }
       if (first && fly) map.flyTo([pos.lat, pos.lon], distM([pos.lat, pos.lon], DISNEY) < 5000 ? 17 : 13);
     }
-    if (first) { first = false; refreshView(); }
+    if (first || Date.now() - (locate.last || 0) > 20000) { first = false; locate.last = Date.now(); if (cur !== 'map') refreshView(); }
   }, e => { watchId = null; toast(e.code === 1 ? 'לא אושרה גישה למיקום' : 'לא הצלחנו לאתר מיקום'); }, { enableHighAccuracy: true, maximumAge: 15000, timeout: 20000 });
 }
 function showOnMap(k) {
@@ -531,6 +552,7 @@ function go(tab) {
   $$('.view').forEach(v => v.hidden = v.dataset.view !== tab);
   $$('#tabbar button').forEach(b => b.classList.toggle('on', b.dataset.tab === tab));
   document.body.classList.toggle('compact', tab !== 'now');
+  if (tab === 'now' && matchMedia('(pointer:coarse)').matches) locate(false);
   if (tab === 'map') { initMap(); setTimeout(() => map && map.invalidateSize(), 60); if (matchMedia('(pointer:coarse)').matches) locate(false); }
   refreshView();
   window.scrollTo({ top: tab === 'map' ? $('#v-map').offsetTop - 8 : 0, behavior: 'smooth' });
@@ -571,11 +593,14 @@ document.addEventListener('click', e => {
   if (t.id === 'clearRoute') { e.preventDefault(); routeLayer && routeLayer.remove(); routeLayer = null; $('#routeNote').textContent = ''; return; }
   if (t.id === 'btnShare') return shareLink();
   if (t.id === 'btnCopyText') return navigator.clipboard.writeText(planText()).then(() => toast('📋 הלו״ז הועתק, אפשר להדביק בוואטסאפ'));
-  if (t.id === 'btnExport') { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify({ v: 1, plan, checks, custom }, null, 1)], { type: 'application/json' })); a.download = 'disney-plan.json'; a.click(); return; }
+  if (t.id === 'btnExport') { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify({ v: 1, plan, checks, custom, done }, null, 1)], { type: 'application/json' })); a.download = 'disney-plan.json'; a.click(); return; }
   if (t.id === 'btnResetPlan') { if (confirm('לאפס את הלו״ז לברירת המחדל?')) { plan = defaultPlan(); savePlan(); renderPlan(); } return; }
   if (t.id === 'addCk') { const v = $('#newCk').value.trim(); if (v) { custom.push({ id: 'u' + Date.now(), label: v }); saveChecks(); renderLists(); } return; }
   if (t.id === 'saveKids') { settings.kids.forEach((k, i) => { k.label = $(`[data-kl="${i}"]`).value.trim() || k.label; k.h = +$(`[data-kh="${i}"]`).value || null; }); store.set('dlp.settings', settings); toast('💾 נשמר'); return; }
-  if (t.id === 'wipe') { if (confirm('למחוק את כל הנתונים מהטלפון?')) { ['dlp.plan', 'dlp.checks', 'dlp.custom', 'dlp.favs', 'dlp.settings', 'dlp.layers'].forEach(store.del); location.reload(); } return; }
+  if (t.id === 'wipe') { if (confirm('למחוק את כל הנתונים מהטלפון?')) { ['dlp.plan', 'dlp.checks', 'dlp.custom', 'dlp.favs', 'dlp.settings', 'dlp.layers', 'dlp.done'].forEach(store.del); location.reload(); } return; }
+  if (d.done) { e.preventDefault(); e.stopPropagation(); return toggleDone(d.done, e.clientX, e.clientY); }
+  if (t.id === 'btnLocNow') return locate(false);
+  if (t.id === 'showDone') { e.preventDefault(); kind = 'ride'; filt = new Set(['done']); return go('places'); }
   if (d.k && !t.closest('.ac')) { e.preventDefault(); closeSheet(); return showItem(d.k); }
   if (t.classList.contains('pc')) return showItem(t.dataset.k);
 });

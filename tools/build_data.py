@@ -30,6 +30,23 @@ COMMONS_OK = {"P1NA00", "P1AA01", "P1NA02", "P2XA08", "P1RA03", "P1MA04", "P1AA0
 WIKI_OK = {"P1NA10", "P1NA08", "P1NA03", "P1NA01", "P1NA13", "P1NA06", "P1AA02", "P1DA09", "P1DA04", "P2EA00",
            "P2AC02", "P2XA07", "P2XA05", "p_arc", "p_trocagarden", "p_laduree", "p_etoile", "p_auber"}
 WIKI_ALIAS = {"p_troca": "p_trocagarden", "P1MA01": None}
+# Official disneylandparis.com pages for items that have no ThemeParks id (hotels, hotel restaurants)
+OFFICIAL_PAGE = {
+    "h_dlh": "/en-gb/hotels/disneyland-hotel",
+    "h_nbc": "/en-gb/hotels/disneys-newport-bay-club/index-redirect", "h_seq": "/en-gb/hotels/disneys-sequoia-lodge/index-redirect",
+    "h_chy": "/en-gb/hotels/disneys-hotel-cheyenne/index-redirect", "h_stf": "/en-gb/hotels/disneys-hotel-santa-fe/index-redirect",
+    "h_dcr": "/en-gb/hotels/disneys-davy-crockett-ranch/index-redirect", "h_expl": "/en-gb/hotels/explorers-fabulous-hotels-group/index-redirect",
+    "h_bb": "/en-gb/hotels/hotel-bb/index-redirect", "d_downtown": "/en-gb/dining/disneys-hotel-new-york/downtown-restaurant",
+    "d_royal": "/en-gb/dining/disneyland-hotel/royal-banquet-ref", "d_lumiere": "/en-gb/dining/disneyland-hotel/la-table-de-lumiere-ref",
+    "d_skyline": "/en-gb/dining/disneys-hotel-new-york/skyline-bar",
+    "P2DR00": "/en-gb/dining/disney-adventure-world/the-regal-view-restaurant-and-lounge",
+    "P1MR12": "/en-gb/dining/disneyland-park/plaza-gardens-restaurant",
+}
+# No official image: Paris places / partner hotels not on the Disney site, plus pages whose only picture is a map,
+# an unclear graphic, or (Hotel New York) a concept-art rendering - the user asked for real photos only.
+NO_OFFICIAL = {"p_arc", "p_laduree", "p_carette", "p_troca", "p_trocagarden", "p_eiffel", "p_champ", "p_bateaux", "p_wilson",
+               "p_lux", "p_etoile", "p_auber", "p_cdg", "h_aida", "h_dream", "h_magic", "h_moxy", "h_radisson",
+               "x_station", "x_valdeurope", "x_village", "P2MG66", "heroicWelcome", "P1G103", "h_hny"}
 # Images that show the same ride at another Disney park (illustration only)
 OTHER_PARK = {"P1NA08", "P1NA03", "P1NA01", "P1NA13", "P1NA06", "P1DA09", "P1DA04", "P2EA00", "P2AC02", "P2XA07", "P2XA05"}
 
@@ -74,7 +91,44 @@ def main():
     children = {c["externalId"]: c for c in load("children.json")["children"]}
     geo, imgs, wiki = load("geo.json"), load("images.json"), load("wikiimg.json")
 
-    def image_for(key):
+    official = load("official.json") if os.path.exists(os.path.join(SRC, "official.json")) else {}
+    by_own, by_any = {}, {}
+    for url, v in official.items():
+        if not v.get("img"):
+            continue
+        if v.get("own"):
+            by_own.setdefault(v["own"], url)
+        for i in v.get("ids", []):
+            by_any.setdefault(i, []).append(url)
+
+    def norm(t):
+        return set(re.findall(r"[a-z0-9]{3,}", (t or "").lower().replace("’", "'"))) - {"the", "and", "disney", "disneyland", "paris", "park", "restaurant", "presented"}
+
+    def official_url(key, en):
+        if key in OFFICIAL_PAGE:
+            return OFFICIAL_PAGE[key]
+        if key in by_own:
+            return by_own[key]
+        cands = by_any.get(key, [])
+        best, score = None, 0
+        for url in (cands or official.keys()):
+            v = official[url]
+            if not v.get("img"):
+                continue
+            a, b = norm(en), norm(v.get("title")) | norm(url.rsplit("/", 1)[-1].replace("-", " "))
+            sc = len(a & b) / max(1, len(a))
+            if sc > score:
+                best, score = url, sc
+        return best if score >= (0.5 if cands else 0.75) else None
+
+    def image_for(key, en=""):
+        url = official_url(key, en) if key not in NO_OFFICIAL else None
+        if url and official.get(url, {}).get("img"):
+            src = official[url]["img"].split("?")[0]
+            return {"src": src + "?w=600", "big": src + "?w=1200", "page": "https://www.disneylandparis.com" + url,
+                    "by": "© Disney", "lic": "disneylandparis.com", "official": True}
+        if key in OTHER_PARK:        # illustration from another park - user asked for real images only
+            return None
         if key in COMMONS_OK and imgs.get(key):
             v = imgs[key]
             return {"src": thumb500(v["thumb"]), "page": v["page"], "by": v.get("artist", ""), "lic": v.get("license", "")}
@@ -101,9 +155,8 @@ def main():
               "park": PARKS.get(c.get("parentId"), ""), "land": land_of(ext),
               "lat": loc.get("latitude"), "lon": loc.get("longitude")}
         it.update(extra)
-        im = image_for(ext)
+        im = image_for(ext, it["en"])
         if im:
-            im["other"] = ext in OTHER_PARK
             it["img"] = im
         return it
 
@@ -117,12 +170,11 @@ def main():
     for ext, v in SHOWS.items():
         items.append(base(ext, "show", v))
     for key, v in PLACES.items():
-        g = geo.get(key, {})
+        g = geo.get(v.get("geo", key), {})
         it = {"k": key, "id": None, "type": v["type"], "lat": g.get("lat"), "lon": g.get("lon"), "park": "", "land": ""}
         it.update(v)
-        im = image_for(key)
+        im = image_for(key, v.get("en", ""))
         if im:
-            im["other"] = False
             it["img"] = im
         items.append(it)
 

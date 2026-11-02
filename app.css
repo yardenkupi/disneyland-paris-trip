@@ -181,3 +181,12 @@ body.compact .hero .sub{display:none}
 body.compact .hero-chips .chip{font-size:.75rem;padding:.2rem .6rem}
 
 bdi{white-space:nowrap}
+
+/* done rides + distance */
+.pick .dist{color:#4b2fa8;font-weight:500}
+.donebtn{flex:0 0 auto;font-weight:700;color:#16a34a;background:#dcfce7}
+.pc.isdone .ph{filter:grayscale(.7) brightness(.9)}
+.pc.isdone{opacity:.85}
+.mk.isdone{border-color:#16a34a;background:#f0fdf4}
+.mk.isdone .emo{opacity:.45;filter:grayscale(.8)}
+.mk .donemark{position:absolute;top:-9px;left:-9px;width:18px;height:18px;border-radius:50%;background:#16a34a;color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
