@@ -33,7 +33,8 @@ let favs = new Set(store.get('dlp.favs', []));
 let plan = store.get('dlp.plan', null) || defaultPlan();
 let checks = store.get('dlp.checks', null) || defaultChecks();
 let custom = store.get('dlp.custom', []);
-let done = store.get('dlp.done', {});   // rides we already did: key -> date
+let done = store.get('dlp.done', {});
+let donelistOpen = false;   // rides we already did: key -> date
 const saveDone = () => store.set('dlp.done', done);
 let curDay = TRIP_DAYS.includes(parisDate()) ? parisDate() : TRIP_DAYS[0];
 let kind = 'ride', park = 'all', filt = new Set(), sortBy = 'rate', query = '', listTab = 'check';
@@ -63,7 +64,12 @@ function emojiOf(it) {
   if (it.type === 'ride' && RIDE_EMO[it.k]) return RIDE_EMO[it.k];
   return { ride: '🎢', hotel: '🏨', hotel2: '🏩', paris: '🗼', transport: '🚆', area: '🛍️', station: '🚂' }[it.type] || '✨';
 }
-function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => t.hidden = true, 2600); }
+function toast(msg, action, fn) {
+  const t = $('#toast');
+  t.innerHTML = esc(msg) + (action ? ` <button class="toast-act">${esc(action)}</button>` : '');
+  if (action) t.querySelector('.toast-act').onclick = e => { e.stopPropagation(); t.hidden = true; fn(); };
+  t.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => t.hidden = true, action ? 6000 : 2600);
+}
 function sparkle(x, y) {
   for (let i = 0; i < 8; i++) {
     const s = document.createElement('span'); s.className = 'spark'; s.textContent = ['✨', '⭐', '💫'][i % 3];
@@ -89,8 +95,9 @@ function walkTxt(it) {
   return `🚶 ${w.min} דק׳ · ${w.m < 1000 ? Math.round(w.m / 10) * 10 + ' מ׳' : (w.m / 1000).toFixed(1) + ' ק״מ'}`;
 }
 function toggleDone(k, x, y) {
-  if (done[k]) { delete done[k]; toast('↺ הסימון בוטל'); }
-  else { done[k] = parisDate(); toast('✅ סומן שעשינו, הוא לא יופיע ב״מה משתלם עכשיו״'); if (x) sparkle(x, y); }
+  const name = (byK.get(k) || {}).he || '';
+  if (done[k]) { delete done[k]; toast(`↺ ${name}: הסימון בוטל`); }
+  else { done[k] = parisDate(); toast(`✅ ${name}: סומן שעשינו`, 'ביטול', () => toggleDone(k)); if (x) sparkle(x, y); }
   saveDone(); refreshView(); refreshMarkers();
   if (!$('#sheetWrap').hidden && $('#sheet [data-done]')) showItem(k);
 }
@@ -188,7 +195,10 @@ function renderPicks() {
   const el = $('#picks');
   const doneN = D.items.filter(i => i.type === 'ride' && done[i.k]).length;
   const top = pos ? '' : '<button class="btn sm ghost" id="btnLocNow" style="margin-bottom:6px">📍 הצגת המרחק ממני</button>';
-  const foot = doneN ? `<p class="muted small" style="margin-top:8px">✅ ${doneN} מתקנים סומנו שעשינו, ולכן הם לא מוצגים כאן. <a href="#" id="showDone">הצגה</a></p>` : '';
+  const doneList = D.items.filter(i => i.type === 'ride' && done[i.k]);
+  const foot = doneN ? `<details class="donelist" ${donelistOpen ? 'open' : ''}><summary>✅ מה שעשינו (${doneN}) · לא מוצגים למעלה</summary>${doneList.map(i =>
+      `<div class="pick" data-k="${i.k}"><span class="em">${emojiOf(i)}</span><span class="nm">${esc(i.he)}<small>${esc(i.land || '')}</small></span>
+       <button class="btn sm ghost" data-done="${i.k}">↺ ביטול</button></div>`).join('')}</details>` : '';
   if (!open.length) { el.innerHTML = top + '<p class="muted">כשהפארקים פתוחים יופיעו כאן המתקנים עם התור הקצר ביותר.</p>' + foot; return; }
   open.forEach(x => { const w = walkOf(x.i); x.score = x.l.w + (w ? w.min : 0) - (x.i.rate || 0) * 3; });
   open.sort((a, b) => a.score - b.score);
@@ -267,7 +277,7 @@ function passFilters(it) {
 }
 function badgesOf(it) {
   const b = [];
-  if (done[it.k]) b.push(`<span class="b ok">✅ עשינו (${+done[it.k].slice(8, 10)}.${+done[it.k].slice(5, 7)})</span>`);
+  if (done[it.k]) b.push(`<span class="b ok">✅ עשינו (${+done[it.k].slice(8, 10)}.${+done[it.k].slice(5, 7)})</span><button class="b undo" data-done="${it.k}">↺ ביטול</button>`);
   if (it.mine) b.push('<span class="b star">⭐ שלנו</span>');
   if (it.rate >= 3) b.push('<span class="b star">✨ חובה</span>'); else if (it.rate === 2) b.push('<span class="b ok">👍 מומלץ</span>');
   if (it.type === 'ride') {
@@ -476,7 +486,7 @@ function markerIcon(it) {
 function popupHtml(it) {
   return `<div class="pop">${it.img ? `<img src="${esc(it.img.src)}" alt="">` : ''}<h4>${emojiOf(it)} ${esc(it.he)}</h4>
     <div>${it.type === 'ride' ? waitBadge(it.k) : ''} <span class="muted small">${walkTxt(it)}</span></div>
-    <div class="row gap" style="margin-top:6px"><button class="btn sm" data-k="${it.k}">פרטים</button><button class="btn sm ghost" data-addplan="${it.k}">📅</button>${it.type === 'ride' ? `<button class="btn sm ghost" data-done="${it.k}">${done[it.k] ? '↺' : '✓ עשינו'}</button>` : ''}</div></div>`;
+    <div class="row gap" style="margin-top:6px"><button class="btn sm" data-k="${it.k}">פרטים</button><button class="btn sm ghost" data-addplan="${it.k}">📅</button>${it.type === 'ride' ? `<button class="btn sm ghost" data-done="${it.k}">${done[it.k] ? '↺ ביטול עשינו' : '✓ עשינו'}</button>` : ''}</div></div>`;
 }
 function initMap() {
   if (map || typeof L === 'undefined') return;
@@ -610,6 +620,7 @@ document.addEventListener('change', e => {
   if (t.id === 'sortSel') { sortBy = t.value; if (sortBy === 'dist' && !pos) { toast('📍 מפעילים מיקום כדי למיין לפי מרחק'); locate(false); } renderPlaces(); }
   if (t.id === 'fileImport' && t.files[0]) t.files[0].text().then(s => { try { applyImport(JSON.parse(s)); } catch { toast('הקובץ לא תקין'); } });
 });
+document.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('donelist')) donelistOpen = e.target.open; }, true);
 $('#q').addEventListener('input', e => { query = e.target.value.trim(); renderPlaces(); });
 $('#sheetWrap').addEventListener('click', e => { if (e.target.id === 'sheetWrap') closeSheet(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });

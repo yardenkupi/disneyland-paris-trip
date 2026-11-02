@@ -1,5 +1,5 @@
 /* Offline support: app shell cache-first, live API network-first, images/tiles stale-while-revalidate. */
-const V = 'dlp-v2';
+const V = 'dlp-v3';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'data.js', 'manifest.webmanifest', 'icons/icon-192.png',
   'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'];
 
